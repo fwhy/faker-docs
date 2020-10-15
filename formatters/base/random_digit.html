@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>randomDigit | Faker非公式リファレンス</title>
+    <meta name="generator" content="VuePress 1.6.0">
+    
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.843215c9.css" as="style"><link rel="preload" href="/assets/js/app.230a7508.js" as="script"><link rel="preload" href="/assets/js/2.53b3737e.js" as="script"><link rel="preload" href="/assets/js/12.275fda4a.js" as="script"><link rel="prefetch" href="/assets/js/10.4eeda06e.js"><link rel="prefetch" href="/assets/js/11.325e1e82.js"><link rel="prefetch" href="/assets/js/13.dde7f985.js"><link rel="prefetch" href="/assets/js/14.53c8800b.js"><link rel="prefetch" href="/assets/js/15.bbdd6d8a.js"><link rel="prefetch" href="/assets/js/16.e8f1745f.js"><link rel="prefetch" href="/assets/js/17.945daa0b.js"><link rel="prefetch" href="/assets/js/18.da6b5819.js"><link rel="prefetch" href="/assets/js/19.761ea6af.js"><link rel="prefetch" href="/assets/js/20.ffde2faa.js"><link rel="prefetch" href="/assets/js/3.fb61182f.js"><link rel="prefetch" href="/assets/js/4.be571b05.js"><link rel="prefetch" href="/assets/js/5.25fcb95b.js"><link rel="prefetch" href="/assets/js/6.0dc47377.js"><link rel="prefetch" href="/assets/js/7.85867563.js"><link rel="prefetch" href="/assets/js/8.adae3f29.js"><link rel="prefetch" href="/assets/js/9.bc8083b7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.843215c9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Faker非公式リファレンス</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/formatters/" class="nav-link router-link-active">
+  フォーマッター
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/formatters/" class="nav-link router-link-active">
+  フォーマッター
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>基底</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/formatters/base/random_digit.html" aria-current="page" class="active sidebar-link">randomDigit</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/formatters/base/random_digit.html#パラメータ" class="sidebar-link">パラメータ</a></li><li class="sidebar-sub-header"><a href="/formatters/base/random_digit.html#例" class="sidebar-link">例</a></li></ul></li><li><a href="/formatters/base/random_digit_not.html" class="sidebar-link">randomDigitNot</a></li><li><a href="/formatters/base/random_digit_not_null.html" class="sidebar-link">randomDigitNotNull</a></li><li><a href="/formatters/base/random_float.html" class="sidebar-link">randomFloat</a></li><li><a href="/formatters/base/random_number.html" class="sidebar-link">randomNumber</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>ロレム</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>人</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>住所</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="randomdigit"><a href="#randomdigit" class="header-anchor">#</a> randomDigit</h1> <div class="language-php extra-class"><pre class="language-php"><code><span class="token function">randomDigit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span> int
+</code></pre></div><p>0から9までの乱数を返します。</p> <h2 id="パラメータ"><a href="#パラメータ" class="header-anchor">#</a> パラメータ</h2> <p>なし</p> <h2 id="例"><a href="#例" class="header-anchor">#</a> 例</h2> <div class="language-php extra-class"><pre class="language-php"><code><span class="token operator">&gt;</span><span class="token operator">&gt;</span><span class="token operator">&gt;</span> Faker\<span class="token package">Factory</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'ja_JP'</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token property">randomDigit</span>
+<span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token number">9</span>
+<span class="token operator">&gt;</span><span class="token operator">&gt;</span><span class="token operator">&gt;</span> Faker\<span class="token package">Factory</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token property">randomDigit</span>
+<span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token number">0</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/formatters/base/random_digit_not.html">
+        randomDigitNot
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.230a7508.js" defer></script><script src="/assets/js/2.53b3737e.js" defer></script><script src="/assets/js/12.275fda4a.js" defer></script>
+  </body>
+</html>
