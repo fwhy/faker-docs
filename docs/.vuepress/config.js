@@ -1,5 +1,6 @@
 module.exports = {
     title: 'Faker非公式リファレンス',
+    base: '/faker-docs/',
     themeConfig: {
         nav: [
             {text: 'Home', link: '/'},
