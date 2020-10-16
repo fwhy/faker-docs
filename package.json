@@ -4,6 +4,7 @@
   "license": "MIT",
   "version": "0.0.1",
   "dependencies": {
+    "moment": "^2.29.1",
     "prismjs": "^1.22.0"
   },
   "devDependencies": {
