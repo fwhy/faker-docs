@@ -2,6 +2,7 @@
 ```php
 randomAscii() :string
 ```
+:jp: :us:  
 ランダムなASCII文字を生成します。  
 
 ## パラメータ

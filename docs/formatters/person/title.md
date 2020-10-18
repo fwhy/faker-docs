@@ -2,6 +2,7 @@
 ```php
 title([?string $gender = null]) :string
 ```
+:jp: :us:  
 敬称を生成します。  
 
 ## パラメータ

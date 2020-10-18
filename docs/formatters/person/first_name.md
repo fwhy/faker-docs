@@ -2,6 +2,7 @@
 ```php
 firstName([?string $gender = null]) :string
 ```
+:jp: :us:  
 名前を生成します。
 
 ## パラメータ

@@ -2,6 +2,7 @@
 ```php
 lastKanaName() :string
 ```
+:jp:  
 カタカナの名字を生成します。
 
 ## パラメータ
@@ -12,8 +13,3 @@ lastKanaName() :string
 >>> Faker\Factory::create('ja_JP')->lastKanaName
 => "タカハシ"
 ```
-
-## 注意
-::: warning 注意:
-日本語ロケールのみ使用可能です。
-:::

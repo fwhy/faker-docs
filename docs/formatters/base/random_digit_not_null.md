@@ -2,6 +2,7 @@
 ```php
 randomDigitNotNull(): int
 ```
+:jp: :us:  
 1から9までの乱数を返します。
 
 ## パラメータ

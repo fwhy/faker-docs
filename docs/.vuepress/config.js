@@ -54,14 +54,44 @@ module.exports = {
                 {
                     title: '住所',
                     children: [
-                        '/formatters/address/city_suffix'
+                        '/formatters/address/city_suffix',
+                        '/formatters/address/street_suffix',
+                        '/formatters/address/building_number',
+                        '/formatters/address/city',
+                        '/formatters/address/street_name',
+                        '/formatters/address/street_address',
+                        '/formatters/address/postcode',
+                        '/formatters/address/address',
+                        '/formatters/address/country',
+                        '/formatters/address/latitude',
+                        '/formatters/address/longitude',
+                        '/formatters/address/local_coordinates',
+                        '/formatters/address/postcode1',
+                        '/formatters/address/postcode2',
+                        '/formatters/address/prefecture',
+                        '/formatters/address/ward',
+                        '/formatters/address/area_number',
+                        '/formatters/address/secondary_address',
                     ]
                 }
-            ]
+            ],
+            smoothScroll: true,
         },
         lastUpdated: '最終更新日時',
+
     },
     markdown: {
         lineNumbers: false
-    }
+    },
+    plugins: [
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp, lang) => {
+                    const format = require('date-fns/format');
+                    return format(timestamp, 'yyyy-MM-dd kk:mm:ss');
+                }
+            }
+        ]
+    ]
 }

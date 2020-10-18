@@ -2,6 +2,7 @@
 ```php
 randomNumber([?int $nbDigits = null [, bool $strict = false]]) :int
 ```
+:jp: :us:  
 0から`$nbDigits`桁までの整数を返します。  
 返される最大値は`mt_getrandmax()`です。
 

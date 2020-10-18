@@ -2,6 +2,7 @@
 ```php
 firstKanaNameFemale() :string
 ```
+:jp:  
 カタカナの女性の名前を生成します。
 
 ## パラメータ
@@ -12,8 +13,3 @@ firstKanaNameFemale() :string
 >>> Faker\Factory::create('ja_JP')->firstKanaNameFemale
 => "ユイ"
 ```
-
-## 注意
-::: warning 注意:
-日本語ロケールのみ使用可能です。
-:::

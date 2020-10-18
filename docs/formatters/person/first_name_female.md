@@ -2,6 +2,7 @@
 ```php
 firstNameFemale() :string
 ```
+:jp: :us:  
 女性の名前を生成します。
 
 ## パラメータ

@@ -2,6 +2,7 @@
 ```php
 titleFemale() :string
 ```
+:jp: :us:  
 女性の敬称を生成します。  
 
 ## パラメータ

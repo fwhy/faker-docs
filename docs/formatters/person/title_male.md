@@ -2,6 +2,7 @@
 ```php
 titleMale() :string
 ```
+:jp: :us:  
 男性の敬称を生成します。  
 
 ## パラメータ

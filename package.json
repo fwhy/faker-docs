@@ -3,11 +3,10 @@
   "description": "Faker非公式リファレンス",
   "license": "MIT",
   "version": "0.0.1",
-  "dependencies": {
-    "moment": "^2.29.1",
-    "prismjs": "^1.22.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "date-fns": "^2.16.1",
+    "prismjs": "^1.22.0",
     "vuepress": "^1.6.0"
   },
   "scripts": {

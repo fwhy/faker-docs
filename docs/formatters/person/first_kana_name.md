@@ -2,6 +2,7 @@
 ```php
 firstKanaName([?string $gender = null]) :string
 ```
+:jp:  
 カタカナの名前を生成します。
 
 ## パラメータ
@@ -12,11 +13,6 @@ firstKanaName([?string $gender = null]) :string
 ```php
 >>> Faker\Factory::create('ja_JP')->firstKanaName
 => "ナナミ"
->>> Faker\Factory::create('ja_JP')->kanaName('male')
+>>> Faker\Factory::create('ja_JP')->firstKanaName('male')
 => "ケンイチ"
 ```
-
-## 注意
-::: warning 注意:
-日本語ロケールのみ使用可能です。
-:::

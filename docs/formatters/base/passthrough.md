@@ -2,6 +2,7 @@
 ```php
 passthrough(mixed $value) :mixed
 ```
+:jp: :us:  
 `$value`をそのまま返します。
 
 ## パラメータ

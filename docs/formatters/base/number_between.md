@@ -2,6 +2,7 @@
 ```php
 numberBetween([int $int1 = 0 [, int $int2 = 2147483647]]) :int
 ```
+:jp: :us:  
 `$int1`から`$int2`までの整数を生成します。  
 
 ## パラメータ

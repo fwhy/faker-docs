@@ -2,6 +2,7 @@
 ```php
 kanaName([?string $gender = null]) :string
 ```
+:jp:  
 カタカナの氏名を生成します。
 
 ## パラメータ
@@ -15,8 +16,3 @@ kanaName([?string $gender = null]) :string
 >>> Faker\Factory::create('ja_JP')->kanaName('male')
 => "ニシノソノ ユウタ"
 ```
-
-## 注意
-::: warning 注意:
-日本語ロケールのみ使用可能です。
-:::

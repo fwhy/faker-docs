@@ -2,6 +2,7 @@
 ```php
 lastName() :string
 ```
+:jp: :us:  
 名字を生成します。
 
 ## パラメータ

@@ -2,6 +2,7 @@
 ```php
 randomDigitNot(int $except) :int
 ```
+:jp: :us:  
 `$except`でない、0から9までのランダムな数字を生成します。
 
 ## パラメータ

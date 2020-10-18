@@ -2,6 +2,7 @@
 ```php
 randomLetter() :string
 ```
+:jp: :us:  
 'a'から'z'までのランダムな文字を生成します。
 
 ## パラメータ
