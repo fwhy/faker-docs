@@ -1,6 +1,6 @@
 # randomFloat
 ```php
-randomFloat([int $nbMaxDecimals = null [, mixed $min = 0 [, mixed $max = null]]]) :float
+randomFloat(int $nbMaxDecimals = null, mixed $min = 0, mixed $max = null) :float
 ```
 :jp: :us:  
 ランダムな浮動小数点数を返します。

@@ -1,6 +1,6 @@
 # latitude
 ```php
-latitude([float $min = -90 [, float $max = 90]]) :float
+latitude(float $min = -90, float $max = 90) :float
 ```
 :jp: :us:  
 緯度を生成します。

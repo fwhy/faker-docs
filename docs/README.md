@@ -1,8 +1,8 @@
-# Faker非公式リファレンス
+# PHP Faker非公式リファレンス
 
 ## [フォーマッター](./formatters)
 ### [基底](./formatters/base)
-* [randomDigit](./formatters/base/ranodm_digit)
+* [randomDigit](./formatters/base/random_digit)
 * [randomDigitNotNull](./formatters/base/random_digit_not_null)
 * [randomDigitNot](./formatters/base/random_digit_not)
 * [randomNumber](./formatters/base/random_number)
@@ -11,6 +11,12 @@
 * [passthroug](./formatters/base/passthrough)
 * [randomLetter](./formatters/base/random_letter)
 * [randomAscii](./formatters/base/random_ascii)
+* [randomElements](./formatters/base/random_elements)
+* [randomElement](./formatters/base/random_element)
+* [randomKey](./formatters/base/random_key)
+* [shuffle](./formatters/base/shuffle)
+* [shuffleArray](./formatters/base/shuffle_array)
+* [shuffleString](./formatters/base/shuffle_string)
 
 ### [ロレム](./formatters/lorem)
 * [word](./formatters/lorem/ward)
@@ -49,3 +55,10 @@
 * [ward](./formatters/address/ward)
 * [areaNumber](./formatters/address/area_number)
 * [secondaryAddress](./formatters/address/secondary_address)
+
+### [電話番号](./formatters/phone_number)
+* [phoneNumber](./formatters/phone_number/phone_number)
+* [e164PhoneNumber](./formatters/phone_number/e164_phone_number)
+
+### [UUID](./formatters/uuid)
+* [uuid](./formatters/uuid/uuid)

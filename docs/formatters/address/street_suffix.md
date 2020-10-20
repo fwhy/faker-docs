@@ -12,6 +12,6 @@ streetSuffix() :string
 ```php
 >>> Faker\Factory::create('ja_JP')->streetSuffix
 => "町"
->>> Faker\Factory::create()->citySuffix
+>>> Faker\Factory::create()->streetSuffix
 => "River"
 ```

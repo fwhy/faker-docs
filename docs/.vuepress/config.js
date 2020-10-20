@@ -1,5 +1,8 @@
+const format = require('date-fns/format');
+const parse = require('date-fns/parse');
+
 module.exports = {
-    title: 'Faker非公式リファレンス',
+    title: 'PHP Faker非公式リファレンス',
     base: '/faker-docs/',
     locales: {
         '/': {
@@ -7,6 +10,7 @@ module.exports = {
         }
     },
     themeConfig: {
+        domain: 'https://fwhy.github.io/faker-docs',
         nav: [
             {text: 'Home', link: '/'},
             {text: 'フォーマッター', link: '/formatters/'},
@@ -25,6 +29,12 @@ module.exports = {
                         '/formatters/base/passthrough',
                         '/formatters/base/random_letter',
                         '/formatters/base/random_ascii',
+                        '/formatters/base/random_elements',
+                        '/formatters/base/random_element',
+                        '/formatters/base/random_key',
+                        '/formatters/base/shuffle',
+                        '/formatters/base/shuffle_array',
+                        '/formatters/base/shuffle_string',
                     ]
                 },
                 {
@@ -48,7 +58,7 @@ module.exports = {
                         '/formatters/person/first_kana_name',
                         '/formatters/person/first_kana_name_male',
                         '/formatters/person/first_kana_name_female',
-                        '/formatters/person/last_kana_name',
+                        '/formatters/person/last_kana_name'
                     ]
                 },
                 {
@@ -71,27 +81,45 @@ module.exports = {
                         '/formatters/address/prefecture',
                         '/formatters/address/ward',
                         '/formatters/address/area_number',
-                        '/formatters/address/secondary_address',
+                        '/formatters/address/secondary_address'
+                    ]
+                },
+                {
+                    title: '電話番号',
+                    children: [
+                        '/formatters/phone_number/phone_number',
+                        '/formatters/phone_number/e164_phone_number',
+                    ]
+                },
+                {
+                    title: 'UUID',
+                    children: [
+                        '/formatters/uuid/uuid'
                     ]
                 }
             ],
             smoothScroll: true,
         },
-        lastUpdated: '最終更新日時',
-
+        lastUpdated: '最終更新日時'
     },
     markdown: {
         lineNumbers: false
     },
-    plugins: [
-        [
-            '@vuepress/last-updated',
-            {
-                transformer: (timestamp, lang) => {
-                    const format = require('date-fns/format');
-                    return format(timestamp, 'yyyy-MM-dd kk:mm:ss');
-                }
+    plugins: {
+        '@vuepress/last-updated': {
+            transformer: (timestamp, lang) => {
+                return format(timestamp, 'yyyy-MM-dd kk:mm:ss');
             }
-        ]
-    ]
+        },
+        'seo': {
+            modifiedAt: $page => $page.lastUpdated && parse($page.lastUpdated, 'yyyy-MM-dd kk:mm:ss', new Date()),
+        },
+        'sitemap': {
+            hostname: 'https://fwhy.github.io/faker-docs',
+            dateFormatter: time => time
+        },
+        'feed': {
+            canonical_base: 'https://fwhy.github.io/faker-docs',
+        }
+    }
 }

@@ -1,6 +1,6 @@
 # name
 ```php
-name([?string $gender = null]) :string
+name(?string $gender = null) :string
 ```
 :jp: :us:  
 氏名を生成します。

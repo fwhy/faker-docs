@@ -1,6 +1,6 @@
 # kanaName
 ```php
-kanaName([?string $gender = null]) :string
+kanaName(?string $gender = null) :string
 ```
 :jp:  
 カタカナの氏名を生成します。

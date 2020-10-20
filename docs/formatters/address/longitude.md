@@ -1,6 +1,6 @@
 # longitude
 ```php
-longitude([float $min = -180 [, float $max = 180]]) :float
+longitude(float $min = -180, float $max = 180) :float
 ```
 :jp: :us:  
 経度を生成します。

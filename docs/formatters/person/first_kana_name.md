@@ -1,6 +1,6 @@
 # firstKanaName
 ```php
-firstKanaName([?string $gender = null]) :string
+firstKanaName(?string $gender = null) :string
 ```
 :jp:  
 カタカナの名前を生成します。

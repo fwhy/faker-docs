@@ -6,8 +6,12 @@
   "dependencies": {},
   "devDependencies": {
     "date-fns": "^2.16.1",
+    "esm": "^3.2.25",
     "prismjs": "^1.22.0",
-    "vuepress": "^1.6.0"
+    "vuepress": "^1.6.0",
+    "vuepress-plugin-feed": "^0.1.8",
+    "vuepress-plugin-seo": "^0.1.4",
+    "vuepress-plugin-sitemap": "^2.3.1"
   },
   "scripts": {
     "dev": "vuepress dev docs",
