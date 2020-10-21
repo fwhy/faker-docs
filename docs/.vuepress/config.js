@@ -11,6 +11,7 @@ module.exports = {
     },
     themeConfig: {
         domain: 'https://fwhy.github.io/faker-docs',
+        smoothScroll: true,
         nav: [
             {text: 'Home', link: '/'},
             {text: 'フォーマッター', link: '/formatters/'},
@@ -38,9 +39,10 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'ロレム',
+                    title: 'ロレム・イプサム',
                     children: [
-                        '/formatters/lorem/word'
+                        '/formatters/lorem/word',
+                        '/formatters/lorem/words',
                     ]
                 },
                 {
@@ -89,6 +91,16 @@ module.exports = {
                     children: [
                         '/formatters/phone_number/phone_number',
                         '/formatters/phone_number/e164_phone_number',
+                        '/formatters/phone_number/imei'
+                    ]
+                },
+                {
+                    title: '会社',
+                    children: [
+                        '/formatters/company/company',
+                        '/formatters/company/company_suffix',
+                        '/formatters/company/job_title',
+                        '/formatters/company/company_prefix'
                     ]
                 },
                 {
@@ -120,6 +132,7 @@ module.exports = {
         },
         'feed': {
             canonical_base: 'https://fwhy.github.io/faker-docs',
-        }
+        },
+        '@vuepress/back-to-top': {}
     }
 }

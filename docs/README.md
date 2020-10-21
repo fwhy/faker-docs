@@ -20,6 +20,7 @@
 
 ### [ロレム](./formatters/lorem)
 * [word](./formatters/lorem/ward)
+* [words](./formatters/lorem/wards)
 
 ### [人](./formatters/person)
 * [name](./formatters/person/name)
@@ -59,6 +60,13 @@
 ### [電話番号](./formatters/phone_number)
 * [phoneNumber](./formatters/phone_number/phone_number)
 * [e164PhoneNumber](./formatters/phone_number/e164_phone_number)
+* [imei](./formatters/phone_number/imei)
+
+### [会社](./formatters/company)
+* [company](./formatters/company/company)
+* [companySuffix](./formatters/company/company_suffix)
+* [jobTitle](./formatters/company/job_title)
+* [companyPrefix](./formatters/company/company_prefix)
 
 ### [UUID](./formatters/uuid)
 * [uuid](./formatters/uuid/uuid)
