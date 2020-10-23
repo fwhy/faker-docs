@@ -9,6 +9,9 @@ module.exports = {
             lang: 'ja'
         }
     },
+    head: [
+        ['meta', {name: 'google-site-verification', content: 'SI8vkpwgHefkAMieimoPyz14ykQUG0A7608PcnkR6YQ'}]
+    ],
     themeConfig: {
         domain: 'https://fwhy.github.io/faker-docs',
         smoothScroll: true,
