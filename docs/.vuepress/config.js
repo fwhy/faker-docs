@@ -15,6 +15,7 @@ module.exports = {
     themeConfig: {
         domain: 'https://fwhy.github.io/faker-docs',
         smoothScroll: true,
+        repo: 'fwhy/faker-docs',
         nav: [
             {text: 'Home', link: '/'},
             {text: 'フォーマッター', link: '/formatters/'},
@@ -107,6 +108,12 @@ module.exports = {
                     ]
                 },
                 {
+                    title: '文章',
+                    children: [
+                        '/formatters/text/real_text'
+                    ]
+                },
+                {
                     title: 'UUID',
                     children: [
                         '/formatters/uuid/uuid'
@@ -131,7 +138,6 @@ module.exports = {
         },
         'sitemap': {
             hostname: 'https://fwhy.github.io/faker-docs',
-            dateFormatter: time => time
         },
         'feed': {
             canonical_base: 'https://fwhy.github.io/faker-docs',

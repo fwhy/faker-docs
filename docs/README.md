@@ -68,5 +68,8 @@
 * [jobTitle](./formatters/company/job_title)
 * [companyPrefix](./formatters/company/company_prefix)
 
+### [文章](./formatters/text)
+* [realText](./formatters/text/real_text)
+
 ### [UUID](./formatters/uuid)
 * [uuid](./formatters/uuid/uuid)
