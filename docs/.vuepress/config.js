@@ -123,7 +123,7 @@ module.exports = {
                 {
                     title: '日時',
                     children: [
-                        '/formatters/date_time/unix_time',
+                        '/formatters/date_time/unix_time'
                     ]
                 },
                 {
@@ -151,6 +151,7 @@ module.exports = {
         },
         'sitemap': {
             hostname: 'https://fwhy.github.io/faker-docs',
+            dateFormatter: time => parse(time, 'yyyy-MM-dd kk:mm:ss', new Date())
         },
         'feed': {
             canonical_base: 'https://fwhy.github.io/faker-docs',
