@@ -71,5 +71,8 @@
 ### [文章](./formatters/text)
 * [realText](./formatters/text/real_text)
 
+### [日時](./formatters/date_time)
+* [unixTime](./formatters/date_time/unix_time)
+
 ### [UUID](./formatters/uuid)
 * [uuid](./formatters/uuid/uuid)

@@ -10,7 +10,14 @@ module.exports = {
         }
     },
     head: [
-        ['meta', {name: 'google-site-verification', content: 'SI8vkpwgHefkAMieimoPyz14ykQUG0A7608PcnkR6YQ'}]
+        ['meta', {name: 'google-site-verification', content: 'SI8vkpwgHefkAMieimoPyz14ykQUG0A7608PcnkR6YQ'}],
+        ['link', {rel: 'icon', href: '/favicon.ico'}],
+        ['link', {rel: 'apple-touch-icon', sizes: '180x180', href: '/images/logo180.png'}],
+        ['meta', {name: 'application-name', content: this.name}],
+        ['meta', {name: 'msapplication-square70x70logo', content: '/images/logo70.png'}],
+        ['meta', {name: 'msapplication-square150x150logo', content: '/images/logo150.png'}],
+        ['meta', {name: 'msapplication-square310x310logo', content: '/images/logo310.png'}],
+        ['meta', {name: 'msapplication-TileColor', content: '#8892bf'}],
     ],
     themeConfig: {
         domain: 'https://fwhy.github.io/faker-docs',
@@ -111,6 +118,12 @@ module.exports = {
                     title: '文章',
                     children: [
                         '/formatters/text/real_text'
+                    ]
+                },
+                {
+                    title: '日時',
+                    children: [
+                        '/formatters/date_time/unix_time',
                     ]
                 },
                 {
