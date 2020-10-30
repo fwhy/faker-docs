@@ -73,6 +73,9 @@
 
 ### [日時](./formatters/date_time)
 * [unixTime](./formatters/date_time/unix_time)
+* [dateTime](./formatters/date_time/date_time)
+* [dateTimeAD](./formatters/date_time/date_time_ad)
+* [iso8601](./formatters/date_time/iso8601)
 
 ### [UUID](./formatters/uuid)
 * [uuid](./formatters/uuid/uuid)

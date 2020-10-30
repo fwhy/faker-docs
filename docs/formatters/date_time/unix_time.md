@@ -1,9 +1,9 @@
 # unixTime
 ```php
-unixTime(int|string|DateTime $max = 'now') :int
+unixTime(DateTime|int|string $max = 'now') :int
 ```
 :jp: :us:  
-0から`$max`までの整数を生成します。
+1970年1月1日から現在までのタイムスタンプを生成します。
 
 ## パラメータ
 ### `$max`
@@ -18,3 +18,6 @@ unixTime(int|string|DateTime $max = 'now') :int
 >>> Faker\Factory::create()->unixTime('1970-01-01 00:00:01')
 => 1
 ```
+
+## 参考
+* [strtotime](https://www.php.net/manual/ja/function.strtotime.php)

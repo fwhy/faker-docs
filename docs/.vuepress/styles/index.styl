@@ -24,23 +24,30 @@ header.navbar
 aside.sidebar
   background $sidebarBgColor
   border-right .25rem solid #666
-  .sidebar-heading
-    color $sidebarFgColor
-    &:hover
-      color $sidebarAccentColor
-  a.sidebar-link
-    color $sidebarFgColor
-    &:hover
-      color $sidebarAccentColor
-    &.active
-      color $sidebarAccentColor
-      border-left-color $sidebarAccentColor
-  .nav-item a.nav-link
-    color $sidebarFgColor
-    &:hover
-      color #fff
-    &.router-link-active
-      color $sidebarAccentColor
+
+  .nav-links
+    .nav-item a.nav-link
+      color $sidebarFgColor
+      &:hover
+        color #fff
+      &.router-link-active
+        color $sidebarAccentColor
+    .repo-link
+      color $sidebarFgColor
+
+  .sidebar-links
+    .sidebar-heading
+      color $sidebarFgColor
+      &:hover
+        color $sidebarAccentColor
+    a.sidebar-link
+      color $sidebarFgColor
+      &:hover
+        color $sidebarAccentColor
+      &.active
+        color $sidebarAccentColor
+        border-left-color $sidebarAccentColor
+
 
 .theme-default-content
   h1, h2, h3, h4, h5, h6

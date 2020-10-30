@@ -123,7 +123,10 @@ module.exports = {
                 {
                     title: '日時',
                     children: [
-                        '/formatters/date_time/unix_time'
+                        '/formatters/date_time/unix_time',
+                        '/formatters/date_time/date_time',
+                        '/formatters/date_time/date_time_ad',
+                        '/formatters/date_time/iso8601',
                     ]
                 },
                 {
