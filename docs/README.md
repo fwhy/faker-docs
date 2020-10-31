@@ -17,6 +17,10 @@
 * [shuffle](./formatters/base/shuffle)
 * [shuffleArray](./formatters/base/shuffle_array)
 * [shuffleString](./formatters/base/shuffle_string)
+* [numerify](./formatters/base/numerify)
+* [lexify](./formatters/base/lexify)
+* [bothify](./formatters/base/bothify)
+* [asciify](./formatters/base/asciify)
 
 ### [ロレム](./formatters/lorem)
 * [word](./formatters/lorem/ward)

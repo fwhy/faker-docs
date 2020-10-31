@@ -15,3 +15,7 @@
 * [shuffle](shuffle)
 * [shuffleArray](shuffle_array)
 * [shuffleString](shuffle_string)
+* [numerify](numerify)
+* [lexify](lexify)
+* [bothify](bothify)
+* [asciify](asciify)

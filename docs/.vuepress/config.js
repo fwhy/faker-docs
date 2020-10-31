@@ -47,6 +47,10 @@ module.exports = {
                         '/formatters/base/shuffle',
                         '/formatters/base/shuffle_array',
                         '/formatters/base/shuffle_string',
+                        '/formatters/base/numerify',
+                        '/formatters/base/lexify',
+                        '/formatters/base/bothify',
+                        '/formatters/base/asciify',
                     ]
                 },
                 {
@@ -154,7 +158,7 @@ module.exports = {
         },
         'sitemap': {
             hostname: 'https://fwhy.github.io/faker-docs',
-            dateFormatter: time => parse(time, 'yyyy-MM-dd kk:mm:ss', new Date())
+            dateFormatter: time => parse(time, 'yyyy-MM-dd kk:mm:ss', new Date()).toISOString()
         },
         'feed': {
             canonical_base: 'https://fwhy.github.io/faker-docs',
