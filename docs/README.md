@@ -1,6 +1,23 @@
+<style>
+.flex {
+    display: flex;
+}
+
+.flex > div {
+    width: 50%;
+}
+</style>
 # PHP Faker非公式リファレンス
 
+Fakerは、ダミーデータを生成するPHPライブラリです。   
+データベースの初期データ、体裁の整ったXMLドキュメントの作成、
+永続性の入力によるストレステスト、本番サービスから取得したデータの匿名化などにFakerが最適です。  
+これは、PerlのData::FakerとRubyのFakerに大きく影響を受けています。
+
 ## [フォーマッター](./formatters)
+<div class="flex">
+<div>
+
 ### [基底](./formatters/base)
 * [randomDigit](./formatters/base/random_digit)
 * [randomDigitNotNull](./formatters/base/random_digit_not_null)
@@ -44,6 +61,9 @@
 * [firstKanaNameFemale](./formatters/person/first_kana_name_female)
 * [lastKanaName](./formatters/person/last_kana_name.md)
 
+</div>
+<div>
+
 ### [住所](./formatters/address)
 * [citySuffix](./formatters/address/city_suffix)
 * [streetSuffix](./formatters/address/street_suffix)
@@ -86,3 +106,7 @@
 
 ### [UUID](./formatters/uuid)
 * [uuid](./formatters/uuid/uuid)
+
+</div>
+</div>
+
