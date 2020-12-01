@@ -19,3 +19,6 @@
 * [lexify](lexify)
 * [bothify](bothify)
 * [asciify](asciify)
+* [regexify](regexify)
+* [toLower](to_lower)
+* [toUpper](to_upper)

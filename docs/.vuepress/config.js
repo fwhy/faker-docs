@@ -51,6 +51,9 @@ module.exports = {
                         '/formatters/base/lexify',
                         '/formatters/base/bothify',
                         '/formatters/base/asciify',
+                        '/formatters/base/regexify',
+                        '/formatters/base/to_lower',
+                        '/formatters/base/to_upper',
                     ]
                 },
                 {

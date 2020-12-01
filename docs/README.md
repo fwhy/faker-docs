@@ -21,6 +21,9 @@
 * [lexify](./formatters/base/lexify)
 * [bothify](./formatters/base/bothify)
 * [asciify](./formatters/base/asciify)
+* [regexify](./formatters/base/regexify)
+* [toLower](./formatters/base/to_lower)
+* [toUpper](./formatters/base/to_upper)
 
 ### [ロレム](./formatters/lorem)
 * [word](./formatters/lorem/ward)

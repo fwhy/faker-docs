@@ -7,4 +7,5 @@ PHP版Fakerの日本語非公式リファレンスです。
 
 ---
 
-[fzaninotto/Faker (PHP Faker)](https://github.com/fzaninotto/Faker)
+[~~fzaninotto/Faker (PHP Faker)~~](https://github.com/fzaninotto/Faker)  
+[FakerPHP/Faker](https://github.com/FakerPHP/Faker)
