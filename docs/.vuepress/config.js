@@ -141,6 +141,15 @@ module.exports = {
                     children: [
                         '/formatters/uuid/uuid'
                     ]
+                },
+                {
+                    title: 'バーコード',
+                    children: [
+                        '/formatters/barcode/ean13',
+                        '/formatters/barcode/ean8',
+                        '/formatters/barcode/isbn10',
+                        '/formatters/barcode/isbn13',
+                    ]
                 }
             ],
             smoothScroll: true,

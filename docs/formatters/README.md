@@ -9,3 +9,4 @@
 * [文章](text)
 * [日時](date_time)
 * [UUID](uuid)
+* [バーコード](barcode)

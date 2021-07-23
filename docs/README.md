@@ -144,6 +144,15 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [uuid](./formatters/uuid/uuid)
 
 </div>
+<div>
+
+### [バーコード](./formatters/barcode)
+* [ean8](./formatters/barcode/ean8)
+* [ean13](./formatters/barcode/ean13)
+* [isbn10](./formatters/barcode/isbn10)
+* [isbn13](./formatters/barcode/isbn13)
+
+</div>
 
 </div>
 
