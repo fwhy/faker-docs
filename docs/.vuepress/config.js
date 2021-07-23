@@ -150,6 +150,12 @@ module.exports = {
                         '/formatters/barcode/isbn10',
                         '/formatters/barcode/isbn13',
                     ]
+                },
+                {
+                    title: 'バイアス',
+                    children: [
+                        '/formatters/biased/biased_number_between',
+                    ]
                 }
             ],
             smoothScroll: true,

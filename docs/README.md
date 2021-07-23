@@ -154,5 +154,12 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 
 </div>
 
+<div>
+
+### [バイアス](./formatters/biased)
+* [biasedNumberBetween](./formatters/biased/biased_number_between)
+
+</div>
+
 </div>
 

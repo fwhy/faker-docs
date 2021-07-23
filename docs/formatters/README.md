@@ -10,3 +10,4 @@
 * [日時](date_time)
 * [UUID](uuid)
 * [バーコード](barcode)
+* [バイアス](biased)
