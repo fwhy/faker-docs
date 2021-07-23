@@ -2,7 +2,7 @@ const format = require('date-fns/format');
 const parse = require('date-fns/parse');
 
 module.exports = {
-    title: 'PHP Faker非公式リファレンス',
+    title: 'FakerPHP非公式リファレンス',
     base: '/faker-docs/',
     locales: {
         '/': {
@@ -18,7 +18,6 @@ module.exports = {
         ['meta', {name: 'msapplication-square150x150logo', content: '/images/logo150.png'}],
         ['meta', {name: 'msapplication-square310x310logo', content: '/images/logo310.png'}],
         ['meta', {name: 'msapplication-TileColor', content: '#8892bf'}],
-        ['script', {src: 'https://twemoji.maxcdn.com/v/latest/twemoji.min.js', crossorigin: 'anonymous'}],
     ],
     themeConfig: {
         domain: 'https://fwhy.github.io/faker-docs',

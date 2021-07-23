@@ -1,6 +1,6 @@
 {
   "name": "faker-docs",
-  "description": "Faker非公式リファレンス",
+  "description": "FakerPHP非公式リファレンス",
   "license": "MIT",
   "version": "0.0.1",
   "dependencies": {},

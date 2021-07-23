@@ -1,21 +1,36 @@
 <style>
 .flex {
     display: flex;
+    flex-flow: column wrap;
 }
 
 .flex > div {
-    width: 50%;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .flex {
+        flex-flow: row wrap;
+    }
+
+    .flex > div {
+        width: 50%;
+    }
 }
 </style>
-# PHP Faker非公式リファレンス
+# FakerPHP非公式リファレンス
 
 Fakerは、ダミーデータを生成するPHPライブラリです。   
 データベースの初期データ、体裁の整ったXMLドキュメントの作成、
 永続性の入力によるストレステスト、本番サービスから取得したデータの匿名化などにFakerが最適です。  
 これは、PerlのData::FakerとRubyのFakerに大きく影響を受けています。
 
+[本家リポジトリ](https://github.com/FakerPHP/Faker/)  
+[本家ドキュメント](https://fakerphp.github.io/)  
+
 ## [フォーマッター](./formatters)
 <div class="flex">
+
 <div>
 
 ### [基底](./formatters/base)
@@ -42,9 +57,15 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [toLower](./formatters/base/to_lower)
 * [toUpper](./formatters/base/to_upper)
 
+</div>
+<div>
+
 ### [ロレム](./formatters/lorem)
 * [word](./formatters/lorem/ward)
 * [words](./formatters/lorem/wards)
+
+</div>
+<div>
 
 ### [人](./formatters/person)
 * [name](./formatters/person/name)
@@ -84,10 +105,16 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [areaNumber](./formatters/address/area_number)
 * [secondaryAddress](./formatters/address/secondary_address)
 
+</div>
+<div>
+
 ### [電話番号](./formatters/phone_number)
 * [phoneNumber](./formatters/phone_number/phone_number)
 * [e164PhoneNumber](./formatters/phone_number/e164_phone_number)
 * [imei](./formatters/phone_number/imei)
+
+</div>
+<div>
 
 ### [会社](./formatters/company)
 * [company](./formatters/company/company)
@@ -95,8 +122,14 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [jobTitle](./formatters/company/job_title)
 * [companyPrefix](./formatters/company/company_prefix)
 
+</div>
+<div>
+
 ### [文章](./formatters/text)
 * [realText](./formatters/text/real_text)
+
+</div>
+<div>
 
 ### [日時](./formatters/date_time)
 * [unixTime](./formatters/date_time/unix_time)
@@ -104,9 +137,13 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [dateTimeAD](./formatters/date_time/date_time_ad)
 * [iso8601](./formatters/date_time/iso8601)
 
+</div>
+<div>
+
 ### [UUID](./formatters/uuid)
 * [uuid](./formatters/uuid/uuid)
 
 </div>
+
 </div>
 
