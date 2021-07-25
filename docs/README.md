@@ -1,17 +1,17 @@
 <style>
-ul {
+h3.formatter + ul {
     display: flex;
     flex-flow: column wrap;
 }
 
 @media screen and (min-width: 576px) {
-    ul { flex-flow: row wrap; }
+    h3.formatter + ul { flex-flow: row wrap; }
 
-    li { width: 50%; }
+    h3.formatter + ul > li { width: 50%; }
 }
 
 @media screen and (min-width: 768px) {
-    li { width: 33.3%; }
+    h3.formatter + ul > li { width: 33.3%; }
 }
 </style>
 # FakerPHP非公式リファレンス
@@ -26,7 +26,7 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 
 ## [フォーマッター](./formatters)
 
-### [人](./formatters/person)
+### [人](./formatters/person) {.formatter}
 * [name](./formatters/person/name)
 * [firstName](./formatters/person/first_name)
 * [firstNameMale](./formatters/person/first_name_male)
@@ -41,7 +41,7 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [firstKanaNameFemale](./formatters/person/first_kana_name_female)
 * [lastKanaName](./formatters/person/last_kana_name.md)
 
-### [住所](./formatters/address)
+### [住所](./formatters/address) {.formatter}
 * [citySuffix](./formatters/address/city_suffix)
 * [streetSuffix](./formatters/address/street_suffix)
 * [buildingNumber](./formatters/address/building_number)
@@ -61,21 +61,21 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [areaNumber](./formatters/address/area_number)
 * [secondaryAddress](./formatters/address/secondary_address)
 
-### [電話番号](./formatters/phone_number)
+### [電話番号](./formatters/phone_number) {.formatter}
 * [phoneNumber](./formatters/phone_number/phone_number)
 * [e164PhoneNumber](./formatters/phone_number/e164_phone_number)
 * [imei](./formatters/phone_number/imei)
 
-### [会社](./formatters/company)
+### [会社](./formatters/company) {.formatter}
 * [company](./formatters/company/company)
 * [companySuffix](./formatters/company/company_suffix)
 * [jobTitle](./formatters/company/job_title)
 * [companyPrefix](./formatters/company/company_prefix)
 
-### [文章](./formatters/text)
+### [文章](./formatters/text) {.formatter}
 * [realText](./formatters/text/real_text)
 
-### [基底](./formatters/base)
+### [基底](./formatters/base) {.formatter}
 * [randomDigit](./formatters/base/random_digit)
 * [randomDigitNotNull](./formatters/base/random_digit_not_null)
 * [randomDigitNot](./formatters/base/random_digit_not)
@@ -99,17 +99,17 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [toLower](./formatters/base/to_lower)
 * [toUpper](./formatters/base/to_upper)
 
-### [ロレム・イプサム](./formatters/lorem)
+### [ロレム・イプサム](./formatters/lorem) {.formatter}
 * [word](./formatters/lorem/ward)
 * [words](./formatters/lorem/wards)
 
-### [日時](./formatters/date_time)
+### [日時](./formatters/date_time) {.formatter}
 * [unixTime](./formatters/date_time/unix_time)
 * [dateTime](./formatters/date_time/date_time)
 * [dateTimeAD](./formatters/date_time/date_time_ad)
 * [iso8601](./formatters/date_time/iso8601)
 
-### [色](./formatters/color)
+### [色](./formatters/color) {.formatter}
 * [hexColor](./formatters/color/hex_color)
 * [safeHexColor](./formatters/color/safe_hex_color)
 * [rgbColorAsArray](./formatters/color/rgb_color_as_array)
@@ -120,14 +120,19 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [colorName](./formatters/color/color_name)
 * [colorName](./formatters/color/hsl_color)
 
-### [UUID](./formatters/uuid)
+### [ファイル](./formatters/file) {.formatter}
+* [mimeType](./formatters/file/mime_type)
+* [fileExtension](./formatters/file/file_extension)
+* [file](./formatters/file/file)
+
+### [UUID](./formatters/uuid) {.formatter}
 * [uuid](./formatters/uuid/uuid)
 
-### [バーコード](./formatters/barcode)
+### [バーコード](./formatters/barcode) {.formatter}
 * [ean8](./formatters/barcode/ean8)
 * [ean13](./formatters/barcode/ean13)
 * [isbn10](./formatters/barcode/isbn10)
 * [isbn13](./formatters/barcode/isbn13)
 
-### [バイアス](./formatters/biased)
+### [バイアス](./formatters/biased) {.formatter}
 * [biasedNumberBetween](./formatters/biased/biased_number_between)

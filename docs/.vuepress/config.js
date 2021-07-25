@@ -151,6 +151,14 @@ module.exports = {
                     ]
                 },
                 {
+                    title: 'ファイル',
+                    children: [
+                        '/formatters/file/mime_type',
+                        '/formatters/file/file_extension',
+                        '/formatters/file/file',
+                    ]
+                },
+                {
                     title: 'UUID',
                     children: [
                         '/formatters/uuid/uuid',
@@ -177,7 +185,10 @@ module.exports = {
         lastUpdated: '最終更新日時'
     },
     markdown: {
-        lineNumbers: false
+        lineNumbers: false,
+        extendMarkdown: md => {
+            md.use(require('markdown-it-attrs'))
+        }
     },
     plugins: {
         '@vuepress/last-updated': {

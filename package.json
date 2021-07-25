@@ -7,6 +7,7 @@
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "date-fns": "^2.23.0",
     "esm": "^3.2.25",
+    "markdown-it-attrs": "^4.0.0",
     "prismjs": "^1.24.1",
     "vuepress": "^1.8.2",
     "vuepress-plugin-feed": "^0.1.9",

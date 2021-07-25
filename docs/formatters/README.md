@@ -9,6 +9,7 @@
 * [ロレム](lorem)
 * [日時](date_time)
 * [色](color)
+* [ファイル](file)
 * [UUID](uuid)
 * [バーコード](barcode)
 * [バイアス](biased)
