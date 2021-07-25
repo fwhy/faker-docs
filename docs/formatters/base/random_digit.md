@@ -1,6 +1,6 @@
 # randomDigit
 ```php
-randomDigit(): int
+randomDigit() :int
 ```
 :jp: :us:  
 0から9までの乱数を返します。

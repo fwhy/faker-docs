@@ -30,6 +30,70 @@ module.exports = {
         sidebar: {
             '/formatters/': [
                 {
+                    title: '人',
+                    children: [
+                        '/formatters/person/name',
+                        '/formatters/person/first_name',
+                        '/formatters/person/first_name_male',
+                        '/formatters/person/first_name_female',
+                        '/formatters/person/last_name',
+                        '/formatters/person/title',
+                        '/formatters/person/title_male',
+                        '/formatters/person/title_female',
+                        '/formatters/person/kana_name',
+                        '/formatters/person/first_kana_name',
+                        '/formatters/person/first_kana_name_male',
+                        '/formatters/person/first_kana_name_female',
+                        '/formatters/person/last_kana_name',
+                    ]
+                },
+                {
+                    title: '住所',
+                    children: [
+                        '/formatters/address/city_suffix',
+                        '/formatters/address/street_suffix',
+                        '/formatters/address/building_number',
+                        '/formatters/address/city',
+                        '/formatters/address/street_name',
+                        '/formatters/address/street_address',
+                        '/formatters/address/postcode',
+                        '/formatters/address/address',
+                        '/formatters/address/country',
+                        '/formatters/address/latitude',
+                        '/formatters/address/longitude',
+                        '/formatters/address/local_coordinates',
+                        '/formatters/address/postcode1',
+                        '/formatters/address/postcode2',
+                        '/formatters/address/prefecture',
+                        '/formatters/address/ward',
+                        '/formatters/address/area_number',
+                        '/formatters/address/secondary_address',
+                    ]
+                },
+                {
+                    title: '電話番号',
+                    children: [
+                        '/formatters/phone_number/phone_number',
+                        '/formatters/phone_number/e164_phone_number',
+                        '/formatters/phone_number/imei',
+                    ]
+                },
+                {
+                    title: '会社',
+                    children: [
+                        '/formatters/company/company',
+                        '/formatters/company/company_suffix',
+                        '/formatters/company/job_title',
+                        '/formatters/company/company_prefix',
+                    ]
+                },
+                {
+                    title: '文章',
+                    children: [
+                        '/formatters/text/real_text',
+                    ]
+                },
+                {
                     title: '基底',
                     children: [
                         '/formatters/base/random_digit',
@@ -64,70 +128,6 @@ module.exports = {
                     ]
                 },
                 {
-                    title: '人',
-                    children: [
-                        '/formatters/person/name',
-                        '/formatters/person/first_name',
-                        '/formatters/person/first_name_male',
-                        '/formatters/person/first_name_female',
-                        '/formatters/person/last_name',
-                        '/formatters/person/title',
-                        '/formatters/person/title_male',
-                        '/formatters/person/title_female',
-                        '/formatters/person/kana_name',
-                        '/formatters/person/first_kana_name',
-                        '/formatters/person/first_kana_name_male',
-                        '/formatters/person/first_kana_name_female',
-                        '/formatters/person/last_kana_name'
-                    ]
-                },
-                {
-                    title: '住所',
-                    children: [
-                        '/formatters/address/city_suffix',
-                        '/formatters/address/street_suffix',
-                        '/formatters/address/building_number',
-                        '/formatters/address/city',
-                        '/formatters/address/street_name',
-                        '/formatters/address/street_address',
-                        '/formatters/address/postcode',
-                        '/formatters/address/address',
-                        '/formatters/address/country',
-                        '/formatters/address/latitude',
-                        '/formatters/address/longitude',
-                        '/formatters/address/local_coordinates',
-                        '/formatters/address/postcode1',
-                        '/formatters/address/postcode2',
-                        '/formatters/address/prefecture',
-                        '/formatters/address/ward',
-                        '/formatters/address/area_number',
-                        '/formatters/address/secondary_address'
-                    ]
-                },
-                {
-                    title: '電話番号',
-                    children: [
-                        '/formatters/phone_number/phone_number',
-                        '/formatters/phone_number/e164_phone_number',
-                        '/formatters/phone_number/imei'
-                    ]
-                },
-                {
-                    title: '会社',
-                    children: [
-                        '/formatters/company/company',
-                        '/formatters/company/company_suffix',
-                        '/formatters/company/job_title',
-                        '/formatters/company/company_prefix'
-                    ]
-                },
-                {
-                    title: '文章',
-                    children: [
-                        '/formatters/text/real_text'
-                    ]
-                },
-                {
                     title: '日時',
                     children: [
                         '/formatters/date_time/unix_time',
@@ -137,9 +137,23 @@ module.exports = {
                     ]
                 },
                 {
+                    title: '色',
+                    children: [
+                        '/formatters/color/hex_color',
+                        '/formatters/color/safe_hex_color',
+                        '/formatters/color/rgb_color_as_array',
+                        '/formatters/color/rgb_color',
+                        '/formatters/color/rgb_css_color',
+                        '/formatters/color/rgba_css_color',
+                        '/formatters/color/safe_color_name',
+                        '/formatters/color/color_name',
+                        '/formatters/color/hsl_color',
+                    ]
+                },
+                {
                     title: 'UUID',
                     children: [
-                        '/formatters/uuid/uuid'
+                        '/formatters/uuid/uuid',
                     ]
                 },
                 {
@@ -156,7 +170,7 @@ module.exports = {
                     children: [
                         '/formatters/biased/biased_number_between',
                     ]
-                }
+                },
             ],
             smoothScroll: true,
         },
