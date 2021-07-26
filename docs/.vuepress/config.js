@@ -179,6 +179,12 @@ module.exports = {
                         '/formatters/biased/biased_number_between',
                     ]
                 },
+                {
+                    title: 'HTMLロレム・イプサム',
+                    children: [
+                        '/formatters/html_lorem/random_html',
+                    ]
+                },
             ],
             smoothScroll: true,
         },
