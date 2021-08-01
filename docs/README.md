@@ -125,6 +125,10 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [fileExtension](./formatters/file/file_extension)
 * [file](./formatters/file/file)
 
+### [画像](./formatters/image) {.formatter}
+* [imageUrl](./formatters/image/image_url)
+* [image](./formatters/image/image)
+
 ### [UUID](./formatters/uuid) {.formatter}
 * [uuid](./formatters/uuid/uuid)
 

@@ -159,6 +159,13 @@ module.exports = {
                     ]
                 },
                 {
+                    title: '画像',
+                    children: [
+                        '/formatters/image/image_url',
+                        '/formatters/image/image',
+                    ]
+                },
+                {
                     title: 'UUID',
                     children: [
                         '/formatters/uuid/uuid',

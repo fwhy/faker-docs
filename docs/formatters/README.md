@@ -10,6 +10,7 @@
 * [日時](date_time)
 * [色](color)
 * [ファイル](file)
+* [画像](image)  
 * [UUID](uuid)
 * [バーコード](barcode)
 * [バイアス](biased)
