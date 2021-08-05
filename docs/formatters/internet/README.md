@@ -1,0 +1,18 @@
+# インターネット
+
+* [email](email)
+* [safeEmail](safe_email)
+* [freeEmail](free_email)
+* [companyEmail](company_email)
+* [freeEmailDomain](free_email_domain)
+* [safeEmailDomain](safe_email_domain)
+* [userName](user_name)
+* [password](password)
+* [domainName](domain_name)
+* [tld](tld)
+* [url](url)
+* [slug](slug)
+* [ipv4](ipv4)
+* [localIpv4](local_ipv4)
+* [ipv6](ipv6)
+* [macAddress](mac_address)

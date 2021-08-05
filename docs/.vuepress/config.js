@@ -137,6 +137,27 @@ module.exports = {
                     ]
                 },
                 {
+                    title: 'インターネット',
+                    children: [
+                        '/formatters/internet/email',
+                        '/formatters/internet/safe_email',
+                        '/formatters/internet/free_email',
+                        '/formatters/internet/company_email',
+                        '/formatters/internet/free_email_domain',
+                        '/formatters/internet/safe_email_domain',
+                        '/formatters/internet/user_name',
+                        '/formatters/internet/password',
+                        '/formatters/internet/domain_name',
+                        '/formatters/internet/tld',
+                        '/formatters/internet/url',
+                        '/formatters/internet/slug',
+                        '/formatters/internet/ipv4',
+                        '/formatters/internet/local_ipv4',
+                        '/formatters/internet/ipv6',
+                        '/formatters/internet/mac_address',
+                    ]
+                },
+                {
                     title: '色',
                     children: [
                         '/formatters/color/hex_color',

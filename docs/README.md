@@ -109,6 +109,24 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [dateTimeAD](./formatters/date_time/date_time_ad)
 * [iso8601](./formatters/date_time/iso8601)
 
+### [インターネット](./formatters/internet) {.formatter}
+* [email](./formatters/internet/email)
+* [safeEmail](./formatters/internet/safe_email)
+* [freeEmail](./formatters/internet/free_email)
+* [companyEmail](./formatters/internet/company_email)
+* [freeEmailDomain](./formatters/internet/free_email_domain)
+* [safeEmailDomain](./formatters/internet/safe_email_domain)
+* [userName](./formatters/internet/user_name)
+* [password](./formatters/internet/password)
+* [domainName](./formatters/internet/domain_name)
+* [tld](./formatters/internet/tld)
+* [url](./formatters/internet/url)
+* [slug](./formatters/internet/slug)
+* [ipv4](./formatters/internet/ipv4)
+* [localIpv4](./formatters/internet/local_ipv4)
+* [ipv6](./formatters/internet/ipv6)
+* [macAddress](./formatters/internet/mac_address.md)
+
 ### [色](./formatters/color) {.formatter}
 * [hexColor](./formatters/color/hex_color)
 * [safeHexColor](./formatters/color/safe_hex_color)
