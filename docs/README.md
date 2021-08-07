@@ -178,3 +178,12 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [bloodType](./formatters/medical/blood_type)
 * [bloodRh](./formatters/medical/blood_rh)
 * [bloodGroup](./formatters/medical/blood_group)
+
+### [支払い](./formatters/payment) {.formatter}
+* [creditCardType](./formatters/payment/credit_card_type)
+* [creditCardNumber](./formatters/payment/credit_card_number)
+* [creditCardExpirationDate](./formatters/payment/credit_card_expiration_date)
+* [creditCardExpirationDateString](./formatters/payment/credit_card_expiration_date_string)
+* [creditCardDetails](./formatters/payment/credit_card_details)
+* [iban](./formatters/payment/iban)
+* [swiftBicNumber](./formatters/payment/swift_bic_number)

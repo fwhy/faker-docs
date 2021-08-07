@@ -18,6 +18,6 @@ freeEmailDomain() :string
 
 ## 注意
 ::: warning 注意:
-ドメインは `gmail.com` 、 `yahoo.com` 、 `hotmail.com` 、 `mail.goo.ne.jp` のいずれかになります。  
-また、 en_USロケールの場合は `mail.goo.ne.jp` を **除く** 、3種類のいずれかになります。
+ドメインは 'gmail.com'、'yahoo.com'、'hotmail.com'、'mail.goo.ne.jp'のいずれかになります。  
+また、 en_USロケールの場合は'mail.goo.ne.jp'を **除く** 、3種類のいずれかになります。
 :::

@@ -18,3 +18,4 @@
 * [バイアス](biased)
 * [HTMLロレム・イプサム](html_lorem)
 * [医療](medical)
+* [支払い](payment)

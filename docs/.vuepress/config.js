@@ -236,6 +236,18 @@ module.exports = {
                         '/formatters/medical/blood_group',
                     ],
                 },
+                {
+                    title: '支払い',
+                    children: [
+                        '/formatters/payment/credit_card_type',
+                        '/formatters/payment/credit_card_number',
+                        '/formatters/payment/credit_card_expiration_date',
+                        '/formatters/payment/credit_card_expiration_date_string',
+                        '/formatters/payment/credit_card_details',
+                        '/formatters/payment/iban',
+                        '/formatters/payment/swift_bic_number',
+                    ],
+                },
             ],
             smoothScroll: true,
         },
