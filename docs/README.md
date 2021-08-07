@@ -161,3 +161,8 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 
 ### [HTMLロレム・イプサム](./formatters/html_lorem) {.formatter}
 * [randomHtml](./formatters/html_lorem/random_html)
+
+### [医療](./formatters/medical) {.formatter}
+* [bloodType](./formatters/medical/blood_type)
+* [bloodRh](./formatters/medical/blood_rh)
+* [bloodGroup](./formatters/medical/blood_group)

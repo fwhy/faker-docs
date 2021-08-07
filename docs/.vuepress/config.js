@@ -213,6 +213,14 @@ module.exports = {
                         '/formatters/html_lorem/random_html',
                     ]
                 },
+                {
+                    title: '医療',
+                    children:[
+                        '/formatters/medical/blood_type',
+                        '/formatters/medical/blood_rh',
+                        '/formatters/medical/blood_group',
+                    ],
+                },
             ],
             smoothScroll: true,
         },
