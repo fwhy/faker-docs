@@ -158,6 +158,22 @@ module.exports = {
                     ]
                 },
                 {
+                    title: 'ユーザーエージェント',
+                    children: [
+                        '/formatters/user_agent/user_agent',
+                        '/formatters/user_agent/chrome',
+                        '/formatters/user_agent/firefox',
+                        '/formatters/user_agent/safari',
+                        '/formatters/user_agent/opera',
+                        '/formatters/user_agent/internet_explorer',
+                        '/formatters/user_agent/mac_processor',
+                        '/formatters/user_agent/linux_processor',
+                        '/formatters/user_agent/windows_platform',
+                        '/formatters/user_agent/mac_platform',
+                        '/formatters/user_agent/linux_platform',
+                    ],
+                },
+                {
                     title: '色',
                     children: [
                         '/formatters/color/hex_color',
