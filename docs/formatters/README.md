@@ -14,6 +14,7 @@
 * [画像](image)
 * [UUID](uuid)
 * [バーコード](barcode)
+* [雑多](miscellaneous)
 * [バイアス](biased)
 * [HTMLロレム・イプサム](html_lorem)
 * [医療](medical)

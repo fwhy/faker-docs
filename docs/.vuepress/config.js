@@ -202,6 +202,21 @@ module.exports = {
                     ]
                 },
                 {
+                    title: '雑多',
+                    children: [
+                        '/formatters/miscellaneous/boolean',
+                        '/formatters/miscellaneous/md5',
+                        '/formatters/miscellaneous/sha1',
+                        '/formatters/miscellaneous/sha256',
+                        '/formatters/miscellaneous/locale',
+                        '/formatters/miscellaneous/country_code',
+                        '/formatters/miscellaneous/country_iso_alpha3',
+                        '/formatters/miscellaneous/language_code',
+                        '/formatters/miscellaneous/currency_code',
+                        '/formatters/miscellaneous/emoji',
+                    ],
+                },
+                {
                     title: 'バイアス',
                     children: [
                         '/formatters/biased/biased_number_between',

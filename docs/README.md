@@ -156,6 +156,18 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [isbn10](./formatters/barcode/isbn10)
 * [isbn13](./formatters/barcode/isbn13)
 
+### [雑多](./formatters/miscellaneous) {.formatter}
+* [boolean](./formatters/miscellaneous/boolean)
+* [md5](./formatters/miscellaneous/md5)
+* [sha1](./formatters/miscellaneous/sha1)
+* [sha256](./formatters/miscellaneous/sha256)
+* [locale](./formatters/miscellaneous/locale)
+* [countryCode](./formatters/miscellaneous/country_code)
+* [countryISOAlpha3](./formatters/miscellaneous/country_iso_alpha3)
+* [languageCode](./formatters/miscellaneous/language_code)
+* [currencyCode](./formatters/miscellaneous/currency_code)
+* [emoji](./formatters/miscellaneous/emoji)
+
 ### [バイアス](./formatters/biased) {.formatter}
 * [biasedNumberBetween](./formatters/biased/biased_number_between)
 
