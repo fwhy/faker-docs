@@ -16,3 +16,5 @@
 * [localIpv4](local_ipv4)
 * [ipv6](ipv6)
 * [macAddress](mac_address)
+* [lastNameAscii](last_name_ascii)
+* [firstNameAscii](first_name_ascii)

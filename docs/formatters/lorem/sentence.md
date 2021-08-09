@@ -1,9 +1,9 @@
-# slug
+# sentence
 ```php
-slug(int $nbWords = 6, bool $variableNbWords = true) :string
+sentence(int $nbWords = 6, bool $variableNbWords = true) :string
 ```
 :jp: :us:  
-スラッグを生成します。
+ランダムな文を返します。
 
 ## パラメータ
 ### `$nbWords`
@@ -14,14 +14,10 @@ slug(int $nbWords = 6, bool $variableNbWords = true) :string
 デフォルトはtrueで、 `$nbWords` で指定した単語数の±40%の文字数になります。  
 falseを指定した場合、正確に `$nbWords` 個の単語数になります。
 
-### 例
+## 例
 ```php
->>> Faker\Factory::create('ja_JP')->slug()
-=> "sunt-voluptatem-excepturi-eligendi-eaque-aspernatur-commodi-officia"
->>> Faker\Factory::create()->slug(2, false)
-=> "dolores-omnis"
->>> Faker\Factory::create()->slug(2, true)
-=> "vel-ut-assumenda"
->>> Faker\Factory::create()->slug(0)
-=> ""
+>>> Faker\Factory::create('ja_JP')->sentence()
+=> "Voluptate quae enim saepe accusantium modi dicta tempore vel."
+>>> Faker\Factory::create()->sentence(5, false)
+=> "Omnis voluptas hic pariatur cum."
 ```

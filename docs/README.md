@@ -6,12 +6,7 @@ h3.formatter + ul {
 
 @media screen and (min-width: 576px) {
     h3.formatter + ul { flex-flow: row wrap; }
-
     h3.formatter + ul > li { width: 50%; }
-}
-
-@media screen and (min-width: 768px) {
-    h3.formatter + ul > li { width: 33.3%; }
 }
 </style>
 # FakerPHP非公式リファレンス
@@ -74,40 +69,62 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 
 ### [文章](./formatters/text) {.formatter}
 * [realText](./formatters/text/real_text)
+* [realTextBetween](./formatters/text/real_text_between)
 
 ### [基底](./formatters/base) {.formatter}
 * [randomDigit](./formatters/base/random_digit)
-* [randomDigitNotNull](./formatters/base/random_digit_not_null)
 * [randomDigitNot](./formatters/base/random_digit_not)
+* [randomDigitNotNull](./formatters/base/random_digit_not_null)
 * [randomNumber](./formatters/base/random_number)
 * [randomFloat](./formatters/base/random_float)
 * [numberBetween](./formatters/base/number_between)
-* [passthroug](./formatters/base/passthrough)
 * [randomLetter](./formatters/base/random_letter)
-* [randomAscii](./formatters/base/random_ascii)
 * [randomElements](./formatters/base/random_elements)
 * [randomElement](./formatters/base/random_element)
-* [randomKey](./formatters/base/random_key)
 * [shuffle](./formatters/base/shuffle)
-* [shuffleArray](./formatters/base/shuffle_array)
-* [shuffleString](./formatters/base/shuffle_string)
 * [numerify](./formatters/base/numerify)
 * [lexify](./formatters/base/lexify)
 * [bothify](./formatters/base/bothify)
 * [asciify](./formatters/base/asciify)
 * [regexify](./formatters/base/regexify)
+* [passthroug](./formatters/base/passthrough)
+* [randomAscii](./formatters/base/random_ascii)
+* [randomKey](./formatters/base/random_key)
+* [shuffleArray](./formatters/base/shuffle_array)
+* [shuffleString](./formatters/base/shuffle_string)
 * [toLower](./formatters/base/to_lower)
 * [toUpper](./formatters/base/to_upper)
 
 ### [ロレム・イプサム](./formatters/lorem) {.formatter}
 * [word](./formatters/lorem/ward)
 * [words](./formatters/lorem/wards)
+* [sentence](./formatters/lorem/sentence)
+* [sentences](./formatters/lorem/sentences)
+* [paragraph](./formatters/lorem/paragraph)
+* [paragraphs](./formatters/lorem/paragraphs)
+* [text](./formatters/lorem/text)
 
 ### [日時](./formatters/date_time) {.formatter}
 * [unixTime](./formatters/date_time/unix_time)
 * [dateTime](./formatters/date_time/date_time)
 * [dateTimeAD](./formatters/date_time/date_time_ad)
 * [iso8601](./formatters/date_time/iso8601)
+* [date](./formatters/date_time/date)
+* [time](./formatters/date_time/time)
+* [dateTimeBetween](./formatters/date_time/date_time_between)
+* [dateTimeInInterval](./formatters/date_time/date_time_in_interval)
+* [dateTimeThisCentury](./formatters/date_time/date_time_this_century)
+* [dateTimeThisDecade](./formatters/date_time/date_time_this_decade)
+* [dateTimeThisYear](./formatters/date_time/date_time_this_year)
+* [dateTimeThisMonth](./formatters/date_time/date_time_this_month)
+* [amPm](./formatters/date_time/am_pm)
+* [dayOfMonth](./formatters/date_time/day_of_month)
+* [dayOfWeek](./formatters/date_time/day_of_week)
+* [month](./formatters/date_time/month)
+* [monthName](./formatters/date_time/month_name)
+* [year](./formatters/date_time/year)
+* [century](./formatters/date_time/century)
+* [timezone](./formatters/date_time/timezone)
 
 ### [インターネット](./formatters/internet) {.formatter}
 * [email](./formatters/internet/email)
@@ -125,7 +142,9 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [ipv4](./formatters/internet/ipv4)
 * [localIpv4](./formatters/internet/local_ipv4)
 * [ipv6](./formatters/internet/ipv6)
-* [macAddress](./formatters/internet/mac_address.md)
+* [macAddress](./formatters/internet/mac_address)
+* [lastNameAscii](./formatters/internet/last_name_ascii)
+* [firstNameAscii](./formatters/internet/first_name_ascii)
 
 ### [ユーザーエージェント](./formatters/user_agent) {.formatter}
 * [userAgent](./formatters/user_agent/user_agent)

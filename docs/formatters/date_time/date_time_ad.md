@@ -3,7 +3,7 @@
 dateTimeAD(DateTime|int|string $max = 'now', ?string $timezone = null) :DateTime
 ```
 :jp: :us:  
-0001年1月1日から現在までの日付の日時オブジェクトを生成します。
+0001年1月1日から `$max` までの日付の日時オブジェクトを生成します。
 
 
 ## パラメータ
