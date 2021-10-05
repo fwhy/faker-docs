@@ -10,9 +10,9 @@ phoneNumber() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->phoneNumber
+>>> Faker\Factory::create('ja_JP')->phoneNumber()
 => "0127-76-0287"
->>> Faker\Factory::create()->phoneNumber
+>>> Faker\Factory::create()->phoneNumber()
 => "1-379-405-3063"
 ```
 

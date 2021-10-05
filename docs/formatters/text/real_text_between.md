@@ -1,4 +1,4 @@
-# realText
+# realTextBetween
 ```php
 realTextBetween(int $minNbChars = 160, int $maxNbChars = 200, int $indexSize = 2) :string
 ```

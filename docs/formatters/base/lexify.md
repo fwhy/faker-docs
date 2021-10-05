@@ -12,7 +12,7 @@ lexify(string $string = '????') :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->lexify
+>>> Faker\Factory::create('ja_JP')->lexify()
 => "rpeb"
 >>> Faker\Factory::create()->lexify('Hello ?????!')
 => "Hello fnbtl!"

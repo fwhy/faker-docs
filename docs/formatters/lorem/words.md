@@ -14,7 +14,7 @@ trueの場合、文字列として返します。デフォルトはfalseで、�
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->words
+>>> Faker\Factory::create('ja_JP')->words()
 => [
      "molestias",
      "doloribus",

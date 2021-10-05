@@ -22,7 +22,7 @@ nullを指定した場合、`randomNumber()`で生成されたランダムな値
 
 ## 例
 ```php
->>> Faker\Factory::crate('ja_JP')->randomFloat
+>>> Faker\Factory::crate('ja_JP')->randomFloat()
 => 5814182.56
 >>> Faker\Factory::create()->randomFloat(3)
 => 318419.71

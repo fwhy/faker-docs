@@ -10,8 +10,8 @@ streetSuffix() :string
   
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->streetSuffix
+>>> Faker\Factory::create('ja_JP')->streetSuffix()
 => "町"
->>> Faker\Factory::create()->streetSuffix
+>>> Faker\Factory::create()->streetSuffix()
 => "River"
 ```

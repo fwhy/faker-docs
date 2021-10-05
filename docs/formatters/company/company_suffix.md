@@ -10,9 +10,9 @@ companySuffix() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->companySuffix
+>>> Faker\Factory::create('ja_JP')->companySuffix()
 => "Ltd"
->>> Faker\Factory::create()->companySuffix
+>>> Faker\Factory::create()->companySuffix()
 => "Inc"
 ```
 

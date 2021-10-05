@@ -12,7 +12,7 @@ randomElement(array|Traversal $array = ['a', 'b', 'c']) :mixed
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->randomElement
+>>> Faker\Factory::create('ja_JP')->randomElement()
 => "c"
 >>> Faker\Factory::create()->randomElement([1, 2, 3])
 => 1

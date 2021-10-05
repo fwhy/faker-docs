@@ -20,7 +20,7 @@ randomElements(array|Traversable $array = ['a', 'b', 'c'] , int $count = 1, bool
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->randomElements
+>>> Faker\Factory::create('ja_JP')->randomElements()
 => [
      "b",
    ]

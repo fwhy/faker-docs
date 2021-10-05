@@ -17,5 +17,6 @@
 * [雑多](miscellaneous)
 * [バイアス](biased)
 * [HTMLロレム・イプサム](html_lorem)
+* [バージョン](version)
 * [医療](medical)
 * [支払い](payment)

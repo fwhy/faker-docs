@@ -269,6 +269,12 @@ module.exports = {
                     ]
                 },
                 {
+                    title: 'バージョン',
+                    children: [
+                        '/formatters/version/semver',
+                    ]
+                },
+                {
                     title: '医療',
                     children:[
                         '/formatters/medical/blood_type',

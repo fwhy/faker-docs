@@ -10,8 +10,8 @@ word() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->word
+>>> Faker\Factory::create('ja_JP')->word()
 => "ducimus"
->>> Faker\Factory::create()->word
+>>> Faker\Factory::create()->word()
 => "id"
 ```

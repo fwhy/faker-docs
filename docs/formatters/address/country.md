@@ -10,8 +10,8 @@ country() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->country
+>>> Faker\Factory::create('ja_JP')->country()
 => "フランス"
->>> Faker\Factory::create()->country
+>>> Faker\Factory::create()->country()
 => "Japan"
 ```

@@ -10,8 +10,8 @@ citySuffix() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->citySuffix
+>>> Faker\Factory::create('ja_JP')->citySuffix()
 => "市"
->>> Faker\Factory::create()->citySuffix
+>>> Faker\Factory::create()->citySuffix()
 => "stad"
 ```

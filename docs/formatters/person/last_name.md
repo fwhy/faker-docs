@@ -10,8 +10,8 @@ lastName() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->lastName
+>>> Faker\Factory::create('ja_JP')->lastName()
 => "工藤"
->>> Faker\Factory::create()->lastName
+>>> Faker\Factory::create()->lastName()
 => "Weissnat"
 ```

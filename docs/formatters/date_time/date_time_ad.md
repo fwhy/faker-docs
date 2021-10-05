@@ -18,7 +18,7 @@ nullの場合、`date_default_timezone_get()`で取得される値になりま�
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->dateTimeAD
+>>> Faker\Factory::create('ja_JP')->dateTimeAD()
 => DateTime @-7252809348 {#3291
      date: 1740-03-02 10:44:12.0 Asia/Tokyo (+09:18),
    }

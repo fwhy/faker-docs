@@ -10,6 +10,6 @@ ward() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->ward
+>>> Faker\Factory::create('ja_JP')->ward()
 => "北区"
 ```

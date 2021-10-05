@@ -11,11 +11,11 @@ name(?string $gender = null) :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->name
+>>> Faker\Factory::create('ja_JP')->name()
 => "吉本 舞"
 >>> Faker\Factory::create('ja_JP')->name('male')
 => "吉田 和也"
->>> Faker\Factory::create()->name
+>>> Faker\Factory::create()->name()
 => "Maryse Larson"
 ```
 

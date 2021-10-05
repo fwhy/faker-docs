@@ -11,11 +11,11 @@ title(?string $gender = null) :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->title
+>>> Faker\Factory::create('ja_JP')->title()
 => "Mrs."
 >>> Faker\Factory::create('ja_JP')->title('male')
 => "Dr."
->>> Faker\Factory::create()->title
+>>> Faker\Factory::create()->title()
 => "Miss"
 ```
 

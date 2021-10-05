@@ -10,9 +10,9 @@ postcode() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->postcode
+>>> Faker\Factory::create('ja_JP')->postcode()
 => "5972377"
->>> Faker\Factory::create()->postcode
+>>> Faker\Factory::create()->postcode()
 => "81265-4770"
 ```
 

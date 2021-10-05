@@ -10,8 +10,8 @@ company() :sting
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->company
+>>> Faker\Factory::create('ja_JP')->company()
 => "有限会社 杉山"
->>> Faker\Factory::create()->company
+>>> Faker\Factory::create()->company()
 => "Torphy Ltd"
 ```

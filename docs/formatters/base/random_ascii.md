@@ -10,9 +10,9 @@ randomAscii() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->randomAscii
+>>> Faker\Factory::create('ja_JP')->randomAscii()
 => "{"
->>> Faker\Factory::create()->randomAscii
+>>> Faker\Factory::create()->randomAscii()
 => "o"
 ```
 

@@ -10,8 +10,8 @@ streetName() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->streetName
+>>> Faker\Factory::create('ja_JP')->streetName()
 => "中津川町"
->>> Faker\Factory::create()->streetName
+>>> Faker\Factory::create()->streetName()
 => "Moen Fall"
 ```

@@ -10,9 +10,9 @@ titleMale() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->titleMale
+>>> Faker\Factory::create('ja_JP')->titleMale()
 => "Mr."
->>> Faker\Factory::create()->titleMale
+>>> Faker\Factory::create()->titleMale()
 => "Prof."
 ```
 

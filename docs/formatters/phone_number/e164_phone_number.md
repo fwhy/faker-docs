@@ -10,8 +10,8 @@ E.164電話番号を生成します。
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->e164PhoneNumber
+>>> Faker\Factory::create('ja_JP')->e164PhoneNumber()
 => "+3611313560448"
->>> Faker\Factory::create()->e164PhoneNumber
+>>> Faker\Factory::create()->e164PhoneNumber()
 => "+2215808750085"
 ```

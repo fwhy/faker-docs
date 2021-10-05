@@ -16,6 +16,6 @@ randomKey(array $array = []) :mixed
 => "a"
 >>> Faker\Factory::create()->randomKey(['a', 'b', 'c'])
 => 2
->>> Faker\Factory::create()->randomKey
+>>> Faker\Factory::create()->randomKey()
 => null
 ```

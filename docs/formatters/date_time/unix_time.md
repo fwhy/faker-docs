@@ -13,7 +13,7 @@ unixTime(DateTime|int|string $max = 'now') :int
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->unixTime
+>>> Faker\Factory::create('ja_JP')->unixTime()
 => 824129063
 >>> Faker\Factory::create()->unixTime('1970-01-01 00:00:01')
 => 1

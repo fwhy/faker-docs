@@ -12,7 +12,7 @@ asciify(string $string = '****') :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->asciify
+>>> Faker\Factory::create('ja_JP')->asciify()
 => "G'|m"
 >>> Faker\Factory::create()->asciify('Password is ******')
 => "Password is p3};L="

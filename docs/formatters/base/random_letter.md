@@ -10,8 +10,8 @@ randomLetter() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->randomLetter
+>>> Faker\Factory::create('ja_JP')->randomLetter()
 => "l"
->>> Faker\Factory::create()->randomLetter
+>>> Faker\Factory::create()->randomLetter()
 => "a"
 ```

@@ -10,9 +10,9 @@ buildingNumber() :mixed
   
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->buildingNumber
+>>> Faker\Factory::create('ja_JP')->buildingNumber()
 => 110
->>> Faker\Factory::create()->buildingNumber
+>>> Faker\Factory::create()->buildingNumber()
 => "87756"
 ```
 

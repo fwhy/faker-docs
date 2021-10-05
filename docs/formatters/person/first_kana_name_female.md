@@ -10,6 +10,6 @@ firstKanaNameFemale() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->firstKanaNameFemale
+>>> Faker\Factory::create('ja_JP')->firstKanaNameFemale()
 => "ユイ"
 ```

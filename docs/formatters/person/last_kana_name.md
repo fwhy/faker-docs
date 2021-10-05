@@ -10,6 +10,6 @@ lastKanaName() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->lastKanaName
+>>> Faker\Factory::create('ja_JP')->lastKanaName()
 => "タカハシ"
 ```

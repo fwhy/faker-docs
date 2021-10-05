@@ -14,7 +14,7 @@ numberBetween(int $int1 = 0, int $int2 = 2147483647) :int
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->numberBetween
+>>> Faker\Factory::create('ja_JP')->numberBetween()
 => 1705891002
 >>> Faker\Factory::create()->numberBetween(PHP_INT_MIN, PHP_INT_MAX)
 => -6203464891146482966

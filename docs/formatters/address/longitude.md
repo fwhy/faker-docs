@@ -14,7 +14,7 @@ longitude(float $min = -180, float $max = 180) :float
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->longitude
+>>> Faker\Factory::create('ja_JP')->longitude()
 => -157.679001
 >>> Faker\Factory::create()->longitude(122, 154)
 => 152.71916

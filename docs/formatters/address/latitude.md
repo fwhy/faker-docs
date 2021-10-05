@@ -14,7 +14,7 @@ latitude(float $min = -90, float $max = 90) :float
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->latitude
+>>> Faker\Factory::create('ja_JP')->latitude()
 => 46.804044
 >>> Faker\Factory::create()->latitude(20, 46)
 => 34.141433

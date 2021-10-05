@@ -10,6 +10,6 @@ prefecture() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->prefecture
+>>> Faker\Factory::create('ja_JP')->prefecture()
 => "高知県"
 ```

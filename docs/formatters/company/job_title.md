@@ -10,9 +10,9 @@ jobTitle() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->jobTitle
+>>> Faker\Factory::create('ja_JP')->jobTitle()
 => "alias"
->>> Faker\Factory::create()->jobTitle
+>>> Faker\Factory::create()->jobTitle()
 => "Numerical Tool Programmer OR Process Control Programmer"
 ```
 

@@ -12,7 +12,7 @@ numerify(string $string = '###') :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->numerify
+>>> Faker\Factory::create('ja_JP')->numerify()
 => "095"
 >>> Faker\Factory::create()->numerify('Lucky number is %#!')
 => "Lucky number is 42!"

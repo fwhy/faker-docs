@@ -10,6 +10,6 @@ secondaryAddress() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->secondaryAddress
+>>> Faker\Factory::create('ja_JP')->secondaryAddress()
 => "ハイツ津田110号"
 ```

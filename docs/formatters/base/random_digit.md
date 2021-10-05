@@ -10,8 +10,8 @@ randomDigit() :int
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->randomDigit
+>>> Faker\Factory::create('ja_JP')->randomDigit()
 => 9
->>> Faker\Factory::create()->randomDigit
+>>> Faker\Factory::create()->randomDigit()
 => 0
 ```

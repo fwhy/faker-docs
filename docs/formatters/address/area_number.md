@@ -10,6 +10,6 @@ areaNumber() :int
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->areaNumber
+>>> Faker\Factory::create('ja_JP')->areaNumber()
 => 6
 ```

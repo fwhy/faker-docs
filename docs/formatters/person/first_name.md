@@ -11,10 +11,10 @@ firstName(?string $gender = null) :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->firstName
+>>> Faker\Factory::create('ja_JP')->firstName()
 => "美加子"
 >>> Faker\Factory::create('ja_JP')->firstName('male')
 => "裕太"
->>> Faker\Factory::create()->firstName
+>>> Faker\Factory::create()->firstName()
 => "Peggie"
 ```

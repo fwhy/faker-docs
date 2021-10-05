@@ -11,7 +11,7 @@ firstKanaName(?string $gender = null) :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->firstKanaName
+>>> Faker\Factory::create('ja_JP')->firstKanaName()
 => "ナナミ"
 >>> Faker\Factory::create('ja_JP')->firstKanaName('male')
 => "ケンイチ"

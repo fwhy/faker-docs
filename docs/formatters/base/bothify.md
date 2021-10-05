@@ -16,7 +16,7 @@ bothify(string $string = '## ??') :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->bothify
+>>> Faker\Factory::create('ja_JP')->bothify()
 => "49 dr"
 >>> Faker\Factory::create()->bothify('Password is ##**??')
 => "Password is 17o9ce"

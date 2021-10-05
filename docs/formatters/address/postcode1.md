@@ -10,6 +10,6 @@ postcode1() :int
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->postcode1
+>>> Faker\Factory::create('ja_JP')->postcode1()
 => 411
 ```

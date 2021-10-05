@@ -17,7 +17,7 @@ nullの場合、`date_default_timezone_get()`で取得される値になりま�
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->dateTime
+>>> Faker\Factory::create('ja_JP')->dateTime()
 => DateTime @1576931742 {#3288
      date: 2019-12-21 12:35:42.0 Asia/Tokyo (+09:00),
    }

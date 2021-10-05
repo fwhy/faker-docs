@@ -10,6 +10,6 @@ companyPrefix() :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->companyPrefix
+>>> Faker\Factory::create('ja_JP')->companyPrefix()
 => "株式会社"
 ```

@@ -18,7 +18,7 @@ realText(int $maxNbChars = 200, int $indexSize = 2) :string
 
 ## 例
 ```php
->>> Faker\Factory::create('ja_JP')->realText
+>>> Faker\Factory::create('ja_JP')->realText()
 => "うしろそうだいと思ったたんです。まだいかんしんごくように考えるからのぞけたのからちらって、ジョバンニは思いま秋だねえ。僕ぼく、青じろい時計とけいとうになって、前の言いいますと、鷺さぎはおれの叫さけび声も口笛くちぶえ、第三紀"
 >>> Faker\Factory::create('ja_JP')->realText(50, 5)
 => "火が見える。あれはほんとうにいいことをしたはずがないんだ。ザネリはうちへ連つれられてった」ジョバン。"
