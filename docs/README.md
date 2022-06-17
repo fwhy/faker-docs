@@ -9,7 +9,7 @@ h3.formatter + ul {
     h3.formatter + ul > li { width: 50%; }
 }
 </style>
-# FakerPHP非公式リファレンス
+# FakerPHP非公式リファレンス&nbsp;<small>for v1.19.0</small>
 
 Fakerは、ダミーデータを生成するPHPライブラリです。   
 データベースの初期データ、体裁の整ったXMLドキュメントの作成、
@@ -180,7 +180,7 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [image](./formatters/image/image)
 
 ### [UUID](./formatters/uuid) {.formatter}
-* [uuid](./formatters/uuid/uuid)
+* [uuid3](./formatters/uuid/uuid3)
 
 ### [バーコード](./formatters/barcode) {.formatter}
 * [ean8](./formatters/barcode/ean8)

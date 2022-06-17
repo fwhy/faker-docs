@@ -1,9 +1,10 @@
 # image
 ```php
-image(?string $dir = null, int $width = 640, int $height = 480, ?string $category = null, bool $fullPath = true, bool $randomize = true, ?string $word = null, bool $gray = false) :?string
+image(?string $dir = null, int $width = 640, int $height = 480, ?string $category = null, bool $fullPath = true, bool $randomize = true, ?string $word = null, bool $gray = false) :?string|bool
 ```
 :jp: :us:  
-[https://placeholder.com/](https://placeholder.com/) から画像を取得し、ローカルに作成された画像ファイルのパスを返します。
+[https://placeholder.com/](https://placeholder.com/) から画像を取得し、ローカルに作成された画像ファイルのパスを返します。  
+URLにアクセスできない場合やHTTPエラーが発生した場合はfalseを返します。
 
 ## パラメータ
 ### `$dir`

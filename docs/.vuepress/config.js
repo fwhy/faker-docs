@@ -26,6 +26,7 @@ module.exports = {
         nav: [
             {text: 'Home', link: '/'},
             {text: 'フォーマッター', link: '/formatters/'},
+            { text: 'for v1.19.0', link: 'https://github.com/FakerPHP/Faker/tree/v1.19.0' }
         ],
         sidebar: {
             '/formatters/': [
@@ -229,7 +230,7 @@ module.exports = {
                 {
                     title: 'UUID',
                     children: [
-                        '/formatters/uuid/uuid',
+                        '/formatters/uuid/uuid3',
                     ]
                 },
                 {

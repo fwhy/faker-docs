@@ -1,9 +1,9 @@
-# uuid
+# uuid3
 ```php
-uuid() :string
+uuid3() :string
 ```
 :jp: :us:  
-UUIDを生成します。
+UUIDバージョン3を生成します。
 
 ## パラメータ
 なし

@@ -1,2 +1,2 @@
 # UUID
-* [uuid](uuid)
+* [uuid3](uuid3)
