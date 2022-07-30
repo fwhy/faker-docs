@@ -1,6 +1,6 @@
 # image
 ```php
-image(?string $dir = null, int $width = 640, int $height = 480, ?string $category = null, bool $fullPath = true, bool $randomize = true, ?string $word = null, bool $gray = false) :?string|bool
+image(?string $dir = null, int $width = 640, int $height = 480, ?string $category = null, bool $fullPath = true, bool $randomize = true, ?string $word = null, bool $gray = false, string $format = 'png') :?string|bool
 ```
 :jp: :us:  
 [https://placeholder.com/](https://placeholder.com/) から画像を取得し、ローカルに作成された画像ファイルのパスを返します。  
@@ -31,8 +31,12 @@ URLにアクセスできない場合やHTTPエラーが発生した場合はfals
 ### `$gray`
 trueの場合、灰色の画像になります。デフォルトはfalse。
 
+### `$format`
+画像のフォーマット（拡張子）を指定します。デフォルトは'png'。  
+'jpg'、'jpeg'、'png'のいずれかで指定してください。
+
 ## 例外
-`$dir` で指定したディレクトリが、ディレクトリでない場合や書き込み権限がない場合は `InvalidArgumentException` が発生します。
+`$format`が'jpg'、'jpeg'、'png'以外であった場合、 または`$dir` で指定したディレクトリが、ディレクトリでない場合や書き込み権限がない場合は `InvalidArgumentException` が発生します。
 
 ## 例
 ```php

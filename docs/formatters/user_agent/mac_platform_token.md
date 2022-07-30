@@ -1,9 +1,9 @@
-# macPlatform
+# macPlatformToken
 ```php
-macPlatform() :string
+macPlatformToken() :string
 ```
 :jp: :us:  
-Macプラットフォームを生成します。
+Macプラットフォームトークンを生成します。
 
 ## パラメータ
 なし

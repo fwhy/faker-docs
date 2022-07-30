@@ -26,7 +26,7 @@ module.exports = {
         nav: [
             {text: 'Home', link: '/'},
             {text: 'フォーマッター', link: '/formatters/'},
-            { text: 'for v1.19.0', link: 'https://github.com/FakerPHP/Faker/tree/v1.19.0' }
+            { text: 'for v1.20.0', link: 'https://github.com/FakerPHP/Faker/tree/v1.20.0' }
         ],
         sidebar: {
             '/formatters/': [
@@ -185,17 +185,19 @@ module.exports = {
                 {
                     title: 'ユーザーエージェント',
                     children: [
+                        '/formatters/user_agent/mac_processor',
+                        '/formatters/user_agent/linux_processor',
                         '/formatters/user_agent/user_agent',
                         '/formatters/user_agent/chrome',
+                        '/formatters/user_agent/msedge',
                         '/formatters/user_agent/firefox',
                         '/formatters/user_agent/safari',
                         '/formatters/user_agent/opera',
                         '/formatters/user_agent/internet_explorer',
-                        '/formatters/user_agent/mac_processor',
-                        '/formatters/user_agent/linux_processor',
-                        '/formatters/user_agent/windows_platform',
-                        '/formatters/user_agent/mac_platform',
-                        '/formatters/user_agent/linux_platform',
+                        '/formatters/user_agent/windows_platform_token',
+                        '/formatters/user_agent/mac_platform_token',
+                        '/formatters/user_agent/ios_mobile_token',
+                        '/formatters/user_agent/linux_platform_token',
                     ],
                 },
                 {

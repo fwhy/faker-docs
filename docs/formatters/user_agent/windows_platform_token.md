@@ -1,9 +1,9 @@
-# windowsPlatform
+# windowsPlatformToken
 ```php
-windowsPlatform() :string
+windowsPlatformToken() :string
 ```
 :jp: :us:  
-Windowsプラットフォームを生成します。
+Windowsプラットフォームトークンを生成します。
 
 ## パラメータ
 なし

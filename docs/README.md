@@ -9,7 +9,7 @@ h3.formatter + ul {
     h3.formatter + ul > li { width: 50%; }
 }
 </style>
-# FakerPHP非公式リファレンス&nbsp;<small>for v1.19.0</small>
+# FakerPHP非公式リファレンス&nbsp;<small>for v1.20.0</small>
 
 Fakerは、ダミーデータを生成するPHPライブラリです。   
 データベースの初期データ、体裁の整ったXMLドキュメントの作成、
@@ -147,17 +147,19 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 * [firstNameAscii](./formatters/internet/first_name_ascii)
 
 ### [ユーザーエージェント](./formatters/user_agent) {.formatter}
+* [macProcessor](./formatters/user_agent/mac_processor)
+* [linuxProcessor](./formatters/user_agent/linux_processor)
 * [userAgent](./formatters/user_agent/user_agent)
 * [chrome](./formatters/user_agent/chrome)
+* [msedge](./formatters/user_agent/msedge)
 * [firefox](./formatters/user_agent/firefox)
 * [safari](./formatters/user_agent/safari)
 * [opera](./formatters/user_agent/opera)
 * [internetExplorer](./formatters/user_agent/internet_explorer)
-* [macProcessor](./formatters/user_agent/mac_processor)
-* [linuxProcessor](./formatters/user_agent/linux_processor)
-* [windowsPlatform](./formatters/user_agent/windows_platform)
-* [macPlatform](./formatters/user_agent/mac_platform)
-* [linuxPlatform](./formatters/user_agent/linux_platform)
+* [windowsPlatformToken](./formatters/user_agent/windows_platform_token)
+* [macPlatformToken](./formatters/user_agent/mac_platform_token)
+* [iosMobileToken](./formatters/user_agent/ios_mobile_token)
+* [linuxPlatformToken](./formatters/user_agent/linux_platform_token)
 
 ### [色](./formatters/color) {.formatter}
 * [hexColor](./formatters/color/hex_color)

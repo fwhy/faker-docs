@@ -1,6 +1,6 @@
 # imageUrl
 ```php
-imageUrl(int $width = 640, int $height = 480, ?string $category = null, bool $randomize = true, ?string $word = null, bool $gray = false) :string
+imageUrl(int $width = 640, int $height = 480, ?string $category = null, bool $randomize = true, ?string $word = null, bool $gray = false, string $format = 'png') :string
 ```
 :jp: :us:  
 [https://placeholder.com/](https://placeholder.com/)　を用いて画像URLを生成します。
@@ -23,6 +23,13 @@ imageUrl(int $width = 640, int $height = 480, ?string $category = null, bool $ra
 
 ### `$gray`
 trueの場合、灰色の画像になります。デフォルトはfalse。
+
+### `$format`
+画像のフォーマット（拡張子）を指定します。デフォルトは'png'。  
+'jpg'、'jpeg'、'png'のいずれかで指定してください。
+
+## 例外
+`$format`が'jpg'、'jpeg'、'png'以外であった場合、`InvalidArgumentException`例外が発生します。
 
 ## 例
 ```php

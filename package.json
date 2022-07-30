@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.7",
-    "date-fns": "^2.28.0",
+    "date-fns": "^2.29.1",
     "esm": "^3.2.25",
     "markdown-it-attrs": "^4.1.4",
     "prismjs": "^1.28.0",

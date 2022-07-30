@@ -1,9 +1,9 @@
-# linuxPlatform
+# linuxPlatformToken
 ```php
-linuxPlatform() :string
+linuxPlatformToken() :string
 ```
 :jp: :us:  
-Linuxプラットフォームを生成します。
+Linuxプラットフォームトークンを生成します。
 
 ## パラメータ
 なし
