@@ -1,4 +1,5 @@
 /node_modules/
 /.idea/
-/docs/.vuepress/dist/
-yarn-error.log
+/docs/.vuepress/faker-docs/
+/docs/.vuepress/.cache/
+/docs/.vuepress/.temp/
