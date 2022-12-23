@@ -1,10 +1,12 @@
-import {defineUserConfig} from '@vuepress/cli';
+import {defineUserConfig} from 'vuepress';
 import {defaultTheme} from '@vuepress/theme-default';
 import {searchPlugin} from '@vuepress/plugin-search';
 import {pwaPlugin} from '@vuepress/plugin-pwa';
 import {seoPlugin} from 'vuepress-plugin-seo2';
 import {sitemapPlugin} from 'vuepress-plugin-sitemap2';
 import {feedPlugin} from 'vuepress-plugin-feed2';
+import MarkdownItAttrs from 'markdown-it-attrs';
+
 
 export default defineUserConfig({
   title: 'FakerPHP非公式リファレンス',
@@ -329,7 +331,7 @@ export default defineUserConfig({
     {
       name: 'markdown-it-attrs',
       extendsMarkdown: md => {
-        md.use(require('markdown-it-attrs'))
+        md.use(MarkdownItAttrs)
       }
     },
   ],
