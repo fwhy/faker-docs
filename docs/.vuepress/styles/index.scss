@@ -46,6 +46,10 @@ aside.sidebar {
   div[class*="language-"]::before {
     display: none;
   }
+
+  pre code, pre[class*="language-"] code {
+    color: #000;
+  }
 }
 
 :root {

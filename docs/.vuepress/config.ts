@@ -34,7 +34,7 @@ export default defineUserConfig({
     navbar: [
       {text: 'Home', link: '/'},
       {text: 'フォーマッター', link: '/formatters/'},
-      {text: 'for v1.20.0', link: 'https://github.com/FakerPHP/Faker/tree/v1.20.0'},
+      {text: 'for v1.21.0', link: 'https://github.com/FakerPHP/Faker/tree/v1.21.0'},
     ],
     sidebar: {
       '/formatters/': [

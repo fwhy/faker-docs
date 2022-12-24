@@ -9,7 +9,7 @@ h3.formatter + ul {
     h3.formatter + ul > li { width: 50%; }
 }
 </style>
-# FakerPHP非公式リファレンス&nbsp;<small>for v1.20.0</small>
+# FakerPHP非公式リファレンス&nbsp;<small>for v1.21.0</small>
 
 Fakerは、ダミーデータを生成するPHPライブラリです。   
 データベースの初期データ、体裁の整ったXMLドキュメントの作成、
@@ -18,6 +18,26 @@ Fakerは、ダミーデータを生成するPHPライブラリです。
 
 [本家リポジトリ](https://github.com/FakerPHP/Faker/)  
 [本家ドキュメント](https://fakerphp.github.io/)  
+
+## インストール
+FakePHPはPHP 7.4以上が必要です。
+
+```sh
+composer require fakerphp/faker
+```
+
+## 使用方法
+
+PSR-0 または PSR-4 を用いたオートロード
+```php
+require_once 'vendor/autoload.php';
+```
+
+またはFakerPHPに同梱された PSR-0 オートローダーを用いて
+```php
+require_once '/path/to/Faker/src/autoload.php';
+```
+
 
 ## [フォーマッター](./formatters)
 
