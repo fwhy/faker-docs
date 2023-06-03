@@ -1,13 +1,13 @@
 # randomElements
 ```php
-randomElements(array|Traversable $array = ['a', 'b', 'c'] , int $count = 1, bool $allowDuplicates = false) :array
+randomElements(array|string|Traversable $array = ['a', 'b', 'c'] , int $count = 1, bool $allowDuplicates = false) :array
 ```
 :jp: :us:  
 `$array`の中からランダムに`$count`個だけ抽出し、配列にして返します。
 
 ## パラメータ
 ### `$array`
-要素を取得する配列。デフォルトは`['a', 'b', 'c']`。
+要素を取得する配列、または列挙型のクラス名。デフォルトは`['a', 'b', 'c']`。
 
 ### `$count`
 取得する要素の数。デフォルトは1。

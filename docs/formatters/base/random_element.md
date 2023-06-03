@@ -1,6 +1,6 @@
 # randomElement
 ```php
-randomElement(array|Traversal $array = ['a', 'b', 'c']) :mixed
+randomElement(array|string|Traversal $array = ['a', 'b', 'c']) :mixed
 ```
 :jp: :us:  
 `$array`の中からランダムに要素を1つ抽出し返します。  
@@ -8,7 +8,7 @@ randomElement(array|Traversal $array = ['a', 'b', 'c']) :mixed
 
 ## パラメータ
 ### `$array`
-要素を取得する配列。デフォルトは`['a', 'b', 'c']`。
+要素を取得する配列、または列挙型のクラス名。デフォルトは`['a', 'b', 'c']`。
 
 ## 例
 ```php
