@@ -9,7 +9,7 @@ h3.formatter + ul {
     h3.formatter + ul > li { width: 50%; }
 }
 </style>
-# FakerPHP非公式リファレンス&nbsp;<small>for v1.21.0</small>
+# FakerPHP非公式リファレンス&nbsp;<small>for v1.22.0</small>
 
 Fakerは、ダミーデータを生成するPHPライブラリです。   
 データベースの初期データ、体裁の整ったXMLドキュメントの作成、
