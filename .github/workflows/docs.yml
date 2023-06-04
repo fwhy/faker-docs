@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Install npm packages
+        run: npm i
+
       - name: Build VuePress site
         run: npm run build
 
