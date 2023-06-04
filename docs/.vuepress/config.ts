@@ -326,7 +326,7 @@ export default defineUserConfig({
       }),
     }),
     sitemapPlugin({hostname: 'fwhy.github.io'}),
-    feedPlugin({hostname: 'fwhy.github.io', atom: true, json: true, rss: true}),
+    feedPlugin({hostname: 'fwhy.github.io', atom: false, json: false, rss: false}),
     pwaPlugin({}),
     {
       name: 'markdown-it-attrs',
