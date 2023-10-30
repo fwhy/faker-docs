@@ -1,6 +1,6 @@
 # randomElements
 ```php
-randomElements(array|string|Traversable $array = ['a', 'b', 'c'] , int $count = 1, bool $allowDuplicates = false) :array
+randomElements(array|string|Traversable $array = ['a', 'b', 'c'] , ?int $count = 1, bool $allowDuplicates = false) :array
 ```
 :jp: :us:  
 `$array`の中からランダムに`$count`個だけ抽出し、配列にして返します。
@@ -10,7 +10,7 @@ randomElements(array|string|Traversable $array = ['a', 'b', 'c'] , int $count = 
 要素を取得する配列、または列挙型のクラス名。デフォルトは`['a', 'b', 'c']`。
 
 ### `$count`
-取得する要素の数。デフォルトは1。
+取得する要素の数。デフォルトは1。nullを指定した場合はランダムな個数を取得します。
 
 ### `$allowDuplicates`
 要素を重複取得してよいか？デフォルトはfalse。
