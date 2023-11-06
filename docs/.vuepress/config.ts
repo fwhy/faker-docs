@@ -5,8 +5,8 @@ import {pwaPlugin} from '@vuepress/plugin-pwa';
 import {seoPlugin} from 'vuepress-plugin-seo2';
 import {sitemapPlugin} from 'vuepress-plugin-sitemap2';
 import {feedPlugin} from 'vuepress-plugin-feed2';
+// @ts-ignore
 import MarkdownItAttrs from 'markdown-it-attrs';
-
 
 export default defineUserConfig({
   title: 'FakerPHP非公式リファレンス',
@@ -24,6 +24,7 @@ export default defineUserConfig({
     ['meta', {name: 'msapplication-square150x150logo', content: '/faker-docs/images/logo150.png'}],
     ['meta', {name: 'msapplication-square310x310logo', content: '/faker-docs/images/logo310.png'}],
     ['meta', {name: 'msapplication-TileColor', content: '#8892bf'}],
+    ['meta', {name: 'google-adsense-account', content: 'ca-pub-2126238242346449'}],
   ],
   theme: defaultTheme({
     repo: 'fwhy/faker-docs',
