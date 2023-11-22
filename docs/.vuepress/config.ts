@@ -5,6 +5,7 @@ import {pwaPlugin} from '@vuepress/plugin-pwa';
 import {seoPlugin} from 'vuepress-plugin-seo2';
 import {sitemapPlugin} from 'vuepress-plugin-sitemap2';
 import {feedPlugin} from 'vuepress-plugin-feed2';
+import {removeHtmlExtensionPlugin} from 'vuepress-plugin-remove-html-extension';
 // @ts-ignore
 import MarkdownItAttrs from 'markdown-it-attrs';
 
@@ -335,5 +336,6 @@ export default defineUserConfig({
         md.use(MarkdownItAttrs)
       }
     },
+    removeHtmlExtensionPlugin(),
   ],
 });
