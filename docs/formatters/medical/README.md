@@ -1,5 +1,5 @@
 # 医療
 
-* [bloodType](blood_type)
-* [bloodRh](blood_rh)
-* [bloodGroup](blood_group)
+* [bloodType](blood_type.md)
+* [bloodRh](blood_rh.md)
+* [bloodGroup](blood_group.md)

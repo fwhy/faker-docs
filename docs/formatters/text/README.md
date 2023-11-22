@@ -1,4 +1,4 @@
 # 文章
 
-* [realText](real_text)
-* [realTextBetween](real_text_between)
+* [realText](real_text.md)
+* [realTextBetween](real_text_between.md)

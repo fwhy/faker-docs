@@ -29,4 +29,4 @@ trueにした場合、返り値が正確に`$nbDigits`桁になります。
 
 ## 参考
 * [mt_getrandmax](https://www.php.net/manual/ja/function.mt-getrandmax)
-* [randomDigitNotNull](random_digit_not_null)
+* [randomDigitNotNull](random_digit_not_null.md)

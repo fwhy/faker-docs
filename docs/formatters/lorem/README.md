@@ -1,9 +1,9 @@
 # ロレム・イプサム
 
-* [word](ward)
-* [words](wards)
-* [sentence](sentence)
-* [sentences](sentences)
-* [paragraph](paragraph)
-* [paragraphs](paragraphs)
-* [text](text)
+* [word](word.md)
+* [words](words.md)
+* [sentence](sentence.md)
+* [sentences](sentences.md)
+* [paragraph](paragraph.md)
+* [paragraphs](paragraphs.md)
+* [text](text.md)

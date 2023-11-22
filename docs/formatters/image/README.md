@@ -1,4 +1,4 @@
 # 画像
 
-* [imageUrl](image_url)
-* [image](image)
+* [imageUrl](image_url.md)
+* [image](image.md)

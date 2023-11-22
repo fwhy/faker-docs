@@ -22,4 +22,4 @@ jobTitle() :string
 :::
 
 ## 参考
-* [word](../lorem/word)
+* [word](../lorem/word.md)

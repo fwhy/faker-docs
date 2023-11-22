@@ -36,5 +36,5 @@ nullを指定した場合、`randomNumber()`で生成されたランダムな値
 :::
 
 ## 参考
-* [randomDigit](random_digit)
-* [randomNumber](random_number)
+* [randomDigit](random_digit.md)
+* [randomNumber](random_number.md)
