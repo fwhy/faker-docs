@@ -1,3 +1,3 @@
 # HTMLロレム・イプサム
 
-* [randomHtml](random_html)
+* [randomHtml](random_html.md)

@@ -1,3 +1,3 @@
 # バイアス
 
-* [biasedNumberBetween](biased_number_between)
+* [biasedNumberBetween](biased_number_between.md)

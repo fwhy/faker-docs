@@ -1,6 +1,6 @@
 # 会社
 
-* [company](company)
-* [companySuffix](company_suffix)
-* [jobTitle](job_title)
-* [companyPrefix](company_prefix)
+* [company](company.md)
+* [companySuffix](company_suffix.md)
+* [jobTitle](job_title.md)
+* [companyPrefix](company_prefix.md)

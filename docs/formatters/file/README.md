@@ -1,5 +1,5 @@
 # ファイル
 
-* [mimeType](mime_type)
-* [fileExtension](file_extension)
-* [file](file)
+* [mimeType](mime_type.md)
+* [fileExtension](file_extension.md)
+* [file](file.md)
