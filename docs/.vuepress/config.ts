@@ -325,6 +325,7 @@ export default defineUserConfig({
         ...jsonLD,
         author: [{'@type': 'Person', name: 'Fullwidth Hyphen', url: 'https://blare.fwhy.app/about/'}]
       }),
+      canonical: '/faker-docs',
     }),
     sitemapPlugin({hostname: 'fwhy.github.io'}),
     feedPlugin({hostname: 'fwhy.github.io', atom: false, json: false, rss: false}),
