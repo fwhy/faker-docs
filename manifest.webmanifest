@@ -1,0 +1,16 @@
+{
+  "name": "FakerPHP非公式リファレンス",
+  "short_name": "FakerPHP非公式リファレンス",
+  "description": "FakerPHP非公式リファレンス",
+  "start_url": "/faker-docs/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#8892bf",
+  "icons": [
+    {
+      "src": "/faker-docs/images/logo180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

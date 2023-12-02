@@ -1,0 +1,14 @@
+import{_ as a,o as n,c as s,e as t}from"./app-yU-VTVEq.js";const p={},o=t(`<h1 id="hslcolorasarray" tabindex="-1"><a class="header-anchor" href="#hslcolorasarray" aria-hidden="true">#</a> hslColorAsArray</h1><div class="language-php" data-ext="php"><pre class="language-php"><code><span class="token function">hslColorAsArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">:</span><span class="token keyword return-type">array</span>
+</code></pre></div><p>🇯🇵 🇺🇸<br> HSLカラーを生成し配列で返します。</p><h2 id="パラメータ" tabindex="-1"><a class="header-anchor" href="#パラメータ" aria-hidden="true">#</a> パラメータ</h2><p>なし</p><h2 id="例" tabindex="-1"><a class="header-anchor" href="#例" aria-hidden="true">#</a> 例</h2><div class="language-php" data-ext="php"><pre class="language-php"><code><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token class-name class-name-fully-qualified static-context">Faker<span class="token punctuation">\\</span>Factory</span><span class="token operator">::</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token string single-quoted-string">&#39;ja_JP&#39;</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">hslColorAsArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token operator">=&gt;</span> <span class="token punctuation">[</span>
+     <span class="token number">320</span><span class="token punctuation">,</span>
+     <span class="token number">3</span><span class="token punctuation">,</span>
+     <span class="token number">0</span><span class="token punctuation">,</span>
+   <span class="token punctuation">]</span>
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token class-name class-name-fully-qualified static-context">Faker<span class="token punctuation">\\</span>Factory</span><span class="token operator">::</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">hslColorAsArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token operator">=&gt;</span> <span class="token punctuation">[</span>
+     <span class="token number">341</span><span class="token punctuation">,</span>
+     <span class="token number">70</span><span class="token punctuation">,</span>
+     <span class="token number">42</span><span class="token punctuation">,</span>
+   <span class="token punctuation">]</span>
+</code></pre></div>`,7),e=[o];function c(l,r){return n(),s("div",null,e)}const i=a(p,[["render",c],["__file","hsl_color_as_array.html.vue"]]);export{i as default};
