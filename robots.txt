@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://fwhy.github.io/faker-docs/sitemap.xml
