@@ -2,9 +2,11 @@ import {defineUserConfig} from 'vuepress';
 import {defaultTheme} from '@vuepress/theme-default';
 import {searchPlugin} from '@vuepress/plugin-search';
 import {pwaPlugin} from '@vuepress/plugin-pwa';
-import {seoPlugin} from 'vuepress-plugin-seo2';
-import {sitemapPlugin} from 'vuepress-plugin-sitemap2';
-import {feedPlugin} from 'vuepress-plugin-feed2';
+import {seoPlugin} from '@vuepress/plugin-seo';
+import {sitemapPlugin} from '@vuepress/plugin-sitemap';
+import {feedPlugin} from '@vuepress/plugin-feed';
+import {viteBundler} from '@vuepress/bundler-vite';
+import {prismjsPlugin} from '@vuepress/plugin-prismjs';
 // @ts-ignore
 import MarkdownItAttrs from 'markdown-it-attrs';
 
@@ -26,6 +28,7 @@ export default defineUserConfig({
     ['meta', {name: 'msapplication-TileColor', content: '#8892bf'}],
     ['meta', {name: 'google-adsense-account', content: 'ca-pub-2126238242346449'}],
   ],
+  bundler: viteBundler(),
   theme: defaultTheme({
     repo: 'fwhy/faker-docs',
     colorMode: 'light',
@@ -35,7 +38,7 @@ export default defineUserConfig({
     navbar: [
       {text: 'Home', link: '/'},
       {text: 'フォーマッター', link: '/formatters/'},
-      {text: 'for v1.23.0', link: 'https://github.com/FakerPHP/Faker/tree/v1.23.0'},
+      {text: 'for v1.24.1', link: 'https://github.com/FakerPHP/Faker/tree/v1.24.1'},
     ],
     sidebar: {
       '/formatters/': [
@@ -310,9 +313,6 @@ export default defineUserConfig({
     },
     lastUpdatedText: '最終更新日時',
   }),
-  markdown: {
-    code: {lineNumbers: false},
-  },
   plugins: [
     searchPlugin({}),
     seoPlugin({
@@ -336,5 +336,9 @@ export default defineUserConfig({
         md.use(MarkdownItAttrs)
       }
     },
+    prismjsPlugin({
+      theme: 'vs',
+      lineNumbers: "disable",
+    }),
   ],
 });

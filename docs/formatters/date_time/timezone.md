@@ -1,6 +1,6 @@
 # timezone
 ```php
-timezone(string $countryCode = null) :string
+timezone(?string $countryCode = null) :string
 ```
 :jp: :us:  
 `$countryCode` で指定した国からランダムでタイムゾーンを生成します。

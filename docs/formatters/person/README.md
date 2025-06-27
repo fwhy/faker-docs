@@ -12,4 +12,4 @@
 * [firstKanaName](first_kana_name.md)
 * [firstKanaNameMale](first_kana_name_male.md)
 * [firstKanaNameFemale](first_kana_name_female.md)
-* [lastKanaName](last_kana_name.md.md)
+* [lastKanaName](last_kana_name.md)
