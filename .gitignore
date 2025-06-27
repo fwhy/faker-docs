@@ -3,3 +3,4 @@
 /docs/.vuepress/faker-docs/
 /docs/.vuepress/.cache/
 /docs/.vuepress/.temp/
+/docs/.vuepress/dist/

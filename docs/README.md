@@ -9,7 +9,7 @@ h3.formatter + ul {
     h3.formatter + ul > li { width: 50%; }
 }
 </style>
-# FakerPHP非公式リファレンス&nbsp;<small>for v1.23.0</small>
+# FakerPHP非公式リファレンス&nbsp;<small>for v1.24.1</small>
 
 Fakerは、ダミーデータを生成するPHPライブラリです。   
 データベースの初期データ、体裁の整ったXMLドキュメントの作成、
@@ -41,7 +41,7 @@ require_once '/path/to/Faker/src/autoload.php';
 
 ## [フォーマッター](./formatters)
 
-### [人](./formatters/person) {.formatter}
+### [人](./formatters/person/) {.formatter}
 * [name](./formatters/person/name.md)
 * [firstName](./formatters/person/first_name.md)
 * [firstNameMale](./formatters/person/first_name_male.md)
@@ -56,7 +56,7 @@ require_once '/path/to/Faker/src/autoload.php';
 * [firstKanaNameFemale](./formatters/person/first_kana_name_female.md)
 * [lastKanaName](./formatters/person/last_kana_name.md)
 
-### [住所](./formatters/address) {.formatter}
+### [住所](./formatters/address/) {.formatter}
 * [citySuffix](./formatters/address/city_suffix.md)
 * [streetSuffix](./formatters/address/street_suffix.md)
 * [buildingNumber](./formatters/address/building_number.md)
@@ -76,22 +76,22 @@ require_once '/path/to/Faker/src/autoload.php';
 * [areaNumber](./formatters/address/area_number.md)
 * [secondaryAddress](./formatters/address/secondary_address.md)
 
-### [電話番号](./formatters/phone_number) {.formatter}
+### [電話番号](./formatters/phone_number/) {.formatter}
 * [phoneNumber](./formatters/phone_number/phone_number.md)
 * [e164PhoneNumber](./formatters/phone_number/e164_phone_number.md)
 * [imei](./formatters/phone_number/imei.md)
 
-### [会社](./formatters/company) {.formatter}
+### [会社](./formatters/company/) {.formatter}
 * [company](./formatters/company/company.md)
 * [companySuffix](./formatters/company/company_suffix.md)
 * [jobTitle](./formatters/company/job_title.md)
 * [companyPrefix](./formatters/company/company_prefix.md)
 
-### [文章](./formatters/text) {.formatter}
+### [文章](./formatters/text/) {.formatter}
 * [realText](./formatters/text/real_text.md)
 * [realTextBetween](./formatters/text/real_text_between.md)
 
-### [基底](./formatters/base) {.formatter}
+### [基底](./formatters/base/) {.formatter}
 * [randomDigit](./formatters/base/random_digit.md)
 * [randomDigitNot](./formatters/base/random_digit_not.md)
 * [randomDigitNotNull](./formatters/base/random_digit_not_null.md)
@@ -115,7 +115,7 @@ require_once '/path/to/Faker/src/autoload.php';
 * [toLower](./formatters/base/to_lower.md)
 * [toUpper](./formatters/base/to_upper.md)
 
-### [ロレム・イプサム](./formatters/lorem) {.formatter}
+### [ロレム・イプサム](./formatters/lorem/) {.formatter}
 * [word](./formatters/lorem/word.md)
 * [words](./formatters/lorem/words.md)
 * [sentence](./formatters/lorem/sentence.md)
@@ -124,7 +124,7 @@ require_once '/path/to/Faker/src/autoload.php';
 * [paragraphs](./formatters/lorem/paragraphs.md)
 * [text](./formatters/lorem/text.md)
 
-### [日時](./formatters/date_time) {.formatter}
+### [日時](./formatters/date_time/) {.formatter}
 * [unixTime](./formatters/date_time/unix_time.md)
 * [dateTime](./formatters/date_time/date_time.md)
 * [dateTimeAD](./formatters/date_time/date_time_ad.md)
@@ -146,7 +146,7 @@ require_once '/path/to/Faker/src/autoload.php';
 * [century](./formatters/date_time/century.md)
 * [timezone](./formatters/date_time/timezone.md)
 
-### [インターネット](./formatters/internet) {.formatter}
+### [インターネット](./formatters/internet/) {.formatter}
 * [email](./formatters/internet/email.md)
 * [safeEmail](./formatters/internet/safe_email.md)
 * [freeEmail](./formatters/internet/free_email.md)
@@ -166,7 +166,7 @@ require_once '/path/to/Faker/src/autoload.php';
 * [lastNameAscii](./formatters/internet/last_name_ascii.md)
 * [firstNameAscii](./formatters/internet/first_name_ascii.md)
 
-### [ユーザーエージェント](./formatters/user_agent) {.formatter}
+### [ユーザーエージェント](./formatters/user_agent/) {.formatter}
 * [macProcessor](./formatters/user_agent/mac_processor.md)
 * [linuxProcessor](./formatters/user_agent/linux_processor.md)
 * [userAgent](./formatters/user_agent/user_agent.md)
@@ -181,7 +181,7 @@ require_once '/path/to/Faker/src/autoload.php';
 * [iosMobileToken](./formatters/user_agent/ios_mobile_token.md)
 * [linuxPlatformToken](./formatters/user_agent/linux_platform_token.md)
 
-### [色](./formatters/color) {.formatter}
+### [色](./formatters/color/) {.formatter}
 * [hexColor](./formatters/color/hex_color.md)
 * [safeHexColor](./formatters/color/safe_hex_color.md)
 * [rgbColorAsArray](./formatters/color/rgb_color_as_array.md)
@@ -192,25 +192,25 @@ require_once '/path/to/Faker/src/autoload.php';
 * [colorName](./formatters/color/color_name.md)
 * [hlsColor](./formatters/color/hsl_color.md)
 
-### [ファイル](./formatters/file) {.formatter}
+### [ファイル](./formatters/file/) {.formatter}
 * [mimeType](./formatters/file/mime_type.md)
 * [fileExtension](./formatters/file/file_extension.md)
 * [file](./formatters/file/file.md)
 
-### [画像](./formatters/image) {.formatter}
+### [画像](./formatters/image/) {.formatter}
 * [imageUrl](./formatters/image/image_url.md)
 * [image](./formatters/image/image.md)
 
-### [UUID](./formatters/uuid) {.formatter}
+### [UUID](./formatters/uuid/) {.formatter}
 * [uuid3](./formatters/uuid/uuid3.md)
 
-### [バーコード](./formatters/barcode) {.formatter}
+### [バーコード](./formatters/barcode/) {.formatter}
 * [ean8](./formatters/barcode/ean8.md)
 * [ean13](./formatters/barcode/ean13.md)
 * [isbn10](./formatters/barcode/isbn10.md)
 * [isbn13](./formatters/barcode/isbn13.md)
 
-### [雑多](./formatters/miscellaneous) {.formatter}
+### [雑多](./formatters/miscellaneous/) {.formatter}
 * [boolean](./formatters/miscellaneous/boolean.md)
 * [md5](./formatters/miscellaneous/md5.md)
 * [sha1](./formatters/miscellaneous/sha1.md)
@@ -222,21 +222,21 @@ require_once '/path/to/Faker/src/autoload.php';
 * [currencyCode](./formatters/miscellaneous/currency_code.md)
 * [emoji](./formatters/miscellaneous/emoji.md)
 
-### [バイアス](./formatters/biased) {.formatter}
+### [バイアス](./formatters/biased/) {.formatter}
 * [biasedNumberBetween](./formatters/biased/biased_number_between.md)
 
-### [HTMLロレム・イプサム](./formatters/html_lorem) {.formatter}
+### [HTMLロレム・イプサム](./formatters/html_lorem/) {.formatter}
 * [randomHtml](./formatters/html_lorem/random_html.md)
 
-### [バージョン](./formatters/version) {.formatter}
+### [バージョン](./formatters/version/) {.formatter}
 * [semver](./formatters/version/semver.md)
 
-### [医療](./formatters/medical) {.formatter}
+### [医療](./formatters/medical/) {.formatter}
 * [bloodType](./formatters/medical/blood_type.md)
 * [bloodRh](./formatters/medical/blood_rh.md)
 * [bloodGroup](./formatters/medical/blood_group.md)
 
-### [支払い](./formatters/payment) {.formatter}
+### [支払い](./formatters/payment/) {.formatter}
 * [creditCardType](./formatters/payment/credit_card_type.md)
 * [creditCardNumber](./formatters/payment/credit_card_number.md)
 * [creditCardExpirationDate](./formatters/payment/credit_card_expiration_date.md)
